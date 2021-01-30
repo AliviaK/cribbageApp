@@ -52,5 +52,4 @@ Have you ever wanted to play cribbage with a friend online? Download this app!
 
 
 #### [Weekly Reflection](WeeklyReflection.md)
-#### [Journal](Journal.md)
 #### [TimeLog](TimeLog.md)
