@@ -7,6 +7,29 @@ public class User {
     private String firstName;
     private String lastName;
 
+    /**
+     * Instantiates a new User
+     */
+    public User() {
+
+    }
+
+    /**
+     * Instantiates a new User
+     * @param id the int user id
+     * @param userName the string user username
+     * @param password the string user password
+     * @param firstName the string user first name
+     * @param lastName the string user last name
+     */
+    public User(int id, String userName, String password, String firstName,
+                String lastName) {
+        this.id = id;
+        this.userName = userName;
+        this.password = password;
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
 
     /**
      * @return user last name
