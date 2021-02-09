@@ -14,12 +14,7 @@ public class User {
     @Column(name = "user_name")
     private String userName;
 
-    @Column(name = "first_name")
-    private String firstName;
-
-    @Column(name = "last_name")
-    private String lastName;
-
+    @Column(name = "user_password")
     private String password;
 
     @Id
@@ -47,36 +42,6 @@ public class User {
         this.id = id;
         this.userName = userName;
         this.password = password;
-        this.firstName = firstName;
-        this.lastName = lastName;
-    }
-
-    /**
-     * @return user last name
-     */
-    public String getLastName() {
-        return lastName;
-    }
-
-    /**
-     * @param lastName the string user's last name
-     */
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    /**
-     * @return user first name
-     */
-    public String getFirstName() {
-        return firstName;
-    }
-
-    /**
-     * @param firstName the string user's first name
-     */
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
     }
 
     /**
