@@ -6,11 +6,11 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import javax.persistence.*;
-    private final Logger logger = LogManager.getLogger(this.getClass());
 
 @Entity(name = "User")
 @Table(name = "user")
 public class User {
+
     @Column(name = "user_name")
     private String userName;
 
