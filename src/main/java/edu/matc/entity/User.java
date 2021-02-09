@@ -1,11 +1,31 @@
 package edu.matc.entity;
 
+import org.hibernate.annotations.GenericGenerator;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import javax.persistence.*;
+    private final Logger logger = LogManager.getLogger(this.getClass());
+
+@Entity(name = "User")
+@Table(name = "user")
 public class User {
-    private int id;
+    @Column(name = "user_name")
     private String userName;
-    private String password;
+
+    @Column(name = "first_name")
     private String firstName;
+
+    @Column(name = "last_name")
     private String lastName;
+
+    private String password;
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
+    @GenericGenerator(name = "native", strategy = "native")
+    private int id;
 
     /**
      * Instantiates a new User
@@ -22,8 +42,8 @@ public class User {
      * @param firstName the string user first name
      * @param lastName the string user last name
      */
-    public User(int id, String userName, String password, String firstName,
-                String lastName) {
+    public User(String userName, String password, String firstName,
+                String lastName, int id) {
         this.id = id;
         this.userName = userName;
         this.password = password;
