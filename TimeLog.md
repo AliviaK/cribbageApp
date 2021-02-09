@@ -10,4 +10,4 @@ This file keeps track of weekly time spent on project files.
 ## Week 3:
     will link to TimeLogWeek3 soon
 ## Week 4:
-    4 hrs creating Hibernate database
+    4pm - 6p/7pm - 10:30pm creating Hibernate database

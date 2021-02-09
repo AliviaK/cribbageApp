@@ -40,10 +40,9 @@ public class UserDao {
      * @param user  User to be inserted or updated
      */
     public int insert(User user) {
-        int id = 0;
         Session session = sessionFactory.openSession();
         Transaction transaction = session.beginTransaction();
-        id = (int)session.save(user);
+        int id = (int)session.save(user);
         transaction.commit();
         session.close();
         return id;

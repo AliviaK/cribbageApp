@@ -8,7 +8,6 @@
     <table class="table">
         <thead>
         <tr>
-            <th>Name</th>
             <th>Username</th>
             <th>ID</th>
         </tr>
@@ -18,7 +17,6 @@
 
         <c:forEach var="user" items="${users}">
             <tr>
-                <td>${user.firstName} ${user.lastName}</td>
                 <td>${user.userName}</td>
                 <td>${user.id}</td>
             </tr>
