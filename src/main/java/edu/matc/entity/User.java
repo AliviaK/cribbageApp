@@ -34,11 +34,8 @@ public class User {
      * @param id the int user id
      * @param userName the string user username
      * @param password the string user password
-     * @param firstName the string user first name
-     * @param lastName the string user last name
      */
-    public User(String userName, String password, String firstName,
-                String lastName, int id) {
+    public User(String userName, String password, int id) {
         this.id = id;
         this.userName = userName;
         this.password = password;

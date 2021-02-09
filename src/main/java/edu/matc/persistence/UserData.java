@@ -29,8 +29,8 @@ public class UserData {
             case "all":
                 sql = getAllUsers();
                 break;
-            case "last":
-                sql = getUserByLast(searchTerm);
+            case "username":
+                sql = getUserByUsername(searchTerm);
                 break;
         }
         try {
@@ -55,17 +55,15 @@ public class UserData {
         return "SELECT * FROM user";
     }
 
-    public String getUserByLast(String lastName) {
-        return "SELECT * FROM user where last_name like '" + lastName + "%'";
+    public String getUserByUsername(String username) {
+        return "SELECT * FROM user where id like '" + username + "%'";
     }
 
     private User createUserFromResults(ResultSet results) throws SQLException {
         User user = new User();
-        user.setLastName(results.getString("last_name"));
-        user.setFirstName(results.getString("first_name"));
         user.setUserName(results.getString("user_name"));
         user.setId(results.getInt("id"));
-        user.setDateOfBirth(results.getString("date_of_birth"));
+        user.setPassword(results.getString("user_password"));
         return user;
     }
 }
