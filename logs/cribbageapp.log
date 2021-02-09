@@ -44,3 +44,4 @@ java.lang.NullPointerException: inStream parameter is null
 [DEBUG] 2021-02-08 22:30:41.421 [http-nio-8080-exec-2] UserDao - Searching for user with user_name = i_love_java
 [DEBUG] 2021-02-08 22:34:16.144 [http-nio-8080-exec-9] UserDao - The list of users [edu.matc.entity.User@78bcd948, edu.matc.entity.User@1b8e0bc]
 [DEBUG] 2021-02-08 22:34:41.657 [http-nio-8080-exec-3] UserDao - Searching for user with username = i_love_java
+[DEBUG] 2021-02-08 22:36:07.842 [http-nio-8080-exec-10] UserDao - Searching for user with userName = i_love_java

@@ -3,11 +3,15 @@
 This file keeps track of weekly time spent on project files.
 
 ## Week 1: 
-    3 hrs setting up environment and brainstorming app details
+    3 hrs
 ## Week 2:
-    6 hrs completing weekly activities, practicing with GitHub and merging conflicts,
-    creating indie project repository and pushing to GitHub, and learning debugger.
+    6 hrs 
 ## Week 3:
-    will link to TimeLogWeek3 soon
+    2/6 
+        7:30pm - 11:00pm 
+    2/7 
+        4:00pm - 10:30pm
 ## Week 4:
-    4pm - 6p/7pm - 10:30pm creating Hibernate database
+    2/8/2021
+        4pm - 6p
+        7pm - 10:30pm 

@@ -7,7 +7,7 @@
     <h2>Find Friends:</h2>
     <div class="form-group">
         <form action="searchUser" method="GET">
-            <label for="username">Search by Userame: </label>
+            <label for="username">Search Type: </label>
             <input type="text" name="username" id="username"/>
             <br />
             <input type="submit" name="searchDetails" value="Enter" />
