@@ -18,11 +18,14 @@ shuffling
 - Deal -> Finalize Hand -> Peg -> Show Player Hand -> Show Computer Hand -> Show Crib -> Shuffle -> Repeat Until Victor;
 
 ## MVP
+- Player Objects
 - Deck of 52 playing cards
 - Dealt Hand, Playing Hand, Crib
 - Front/Back Pegs
+- Calculate pegging and hand counting logic
 
 
 ## Schedule
 - 2/9 - 2/14 Edit/finalize(?) site and game design documents; finish first draft of user table/DAO/Hibernate
-- 2/14 - 2/28 Create Player, Deck
+- 2/14 - 2/28 Create Player, Deck; work on site visuals
+- 2/28 -
