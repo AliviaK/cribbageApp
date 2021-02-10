@@ -38,9 +38,10 @@ background will be available as well.
 
 * [User Stories](UserStories.md)
 * [Tasks]
-* [Screen Design]
 * [Application Flow]
 * [Database Design]
+
+![Screenshot Game Interface](gameBoard.jpg "Game Board Mockup")
 
 ### [Project Plan]
 
