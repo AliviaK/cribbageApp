@@ -37,13 +37,16 @@ background will be available as well.
 ### Design
 
 * [User Stories](UserStories.md)
-* [Tasks]
+* [Tasks](Tasks.md)
 * [Application Flow]
 * [Database Design]
 
-![Screenshot Game Interface](gameBoard.jpg "Game Board Mockup")
 
 ### [Project Plan](ProjectPlan.md)
+
+![Screenshot Game Interface](gameBoard.jpg "Game Board Mockup")
+
+
 
 
 #### [Weekly Reflection](WeeklyReflection.md)
