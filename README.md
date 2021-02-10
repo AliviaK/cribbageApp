@@ -43,7 +43,7 @@ background will be available as well.
 
 ![Screenshot Game Interface](gameBoard.jpg "Game Board Mockup")
 
-### [Project Plan]
+### [Project Plan](ProjectPlan.md)
 
 
 #### [Weekly Reflection](WeeklyReflection.md)
