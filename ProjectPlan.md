@@ -38,5 +38,5 @@ counting dealer hand, counting crib, shuffling
 ## Schedule
 - 2/9 - 2/14 Edit/finalize(?) site and game design documents; finish first 
   draft of user table/DAO/Hibernate
-- 2/14 - 2/28 Create Player, Deck; work on site visuals
-- 2/28 -
+- 2/14 - 2/28 Create Player, Deck, Game objects; work on site visuals
+- 2/28 - 3/14 Finish Database tables & structure
