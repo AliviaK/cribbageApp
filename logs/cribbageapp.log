@@ -45,3 +45,40 @@ java.lang.NullPointerException: inStream parameter is null
 [DEBUG] 2021-02-08 22:34:16.144 [http-nio-8080-exec-9] UserDao - The list of users [edu.matc.entity.User@78bcd948, edu.matc.entity.User@1b8e0bc]
 [DEBUG] 2021-02-08 22:34:41.657 [http-nio-8080-exec-3] UserDao - Searching for user with username = i_love_java
 [DEBUG] 2021-02-08 22:36:07.842 [http-nio-8080-exec-10] UserDao - Searching for user with userName = i_love_java
+[DEBUG] 2021-02-14 13:27:36.932 [http-nio-8080-exec-5] UserDao - The list of users [edu.matc.entity.User@18a39236, edu.matc.entity.User@5f3cee7e]
+[DEBUG] 2021-02-14 13:39:21.350 [http-nio-8080-exec-8] UserDao - Searching for user with userName = i_love_java
+[DEBUG] 2021-02-14 13:42:56.478 [http-nio-8080-exec-9] UserDao - Searching for user with userName = i_love_java
+[DEBUG] 2021-02-14 13:43:01.837 [http-nio-8080-exec-10] UserDao - The list of users [edu.matc.entity.User@16c6fe32, edu.matc.entity.User@110cb818]
+[DEBUG] 2021-02-14 13:43:10.808 [http-nio-8080-exec-3] UserDao - Searching for user with userName = CribbageFan13
+[DEBUG] 2021-02-14 14:12:53.518 [main] UserDao - The list of users [edu.matc.entity.User@2c7c0e36, edu.matc.entity.User@37ca3ca8]
+[DEBUG] 2021-02-14 14:13:17.807 [main] UserDao - The list of users [edu.matc.entity.User@70d4f672, edu.matc.entity.User@57cabdc3]
+[DEBUG] 2021-02-14 14:13:30.358 [main] UserDao - The list of users [edu.matc.entity.User@5fd43e58, edu.matc.entity.User@509a6095]
+[DEBUG] 2021-02-14 14:17:28.636 [main] UserDao - The list of users [edu.matc.entity.User@70d4f672, edu.matc.entity.User@57cabdc3]
+[DEBUG] 2021-02-14 14:17:28.644 [main] UserDao - Searching for user with userName = i
+[DEBUG] 2021-02-14 14:17:36.861 [main] UserDao - The list of users [edu.matc.entity.User@70d4f672, edu.matc.entity.User@57cabdc3]
+[DEBUG] 2021-02-14 14:17:36.869 [main] UserDao - Searching for user with userName = i
+[DEBUG] 2021-02-14 14:18:44.537 [main] UserDao - The list of users [edu.matc.entity.User@70d4f672, edu.matc.entity.User@57cabdc3]
+[DEBUG] 2021-02-14 14:18:44.545 [main] UserDao - Searching for user with userName = i
+[DEBUG] 2021-02-14 14:19:09.092 [main] UserDao - The list of users [edu.matc.entity.User@2c7c0e36, edu.matc.entity.User@37ca3ca8]
+[DEBUG] 2021-02-14 14:19:09.102 [main] UserDao - Searching for user with userName = i
+[DEBUG] 2021-02-14 14:19:36.976 [http-nio-8080-exec-10] UserDao - Searching for user with userName = c
+[DEBUG] 2021-02-14 14:19:57.837 [main] UserDao - Searching for user with userName = i
+[DEBUG] 2021-02-14 14:28:01.326 [http-nio-8080-exec-4] UserDao - Searching for user with userName = i
+[DEBUG] 2021-02-14 14:33:45.515 [main] UserDao - Searching for user with userName = j
+[DEBUG] 2021-02-14 14:34:08.660 [main] UserDao - Searching for user with userName = j
+[DEBUG] 2021-02-14 14:34:34.223 [main] UserDao - The list of users [edu.matc.entity.User@70d4f672, edu.matc.entity.User@57cabdc3]
+[DEBUG] 2021-02-14 14:34:34.231 [main] UserDao - Searching for user with userName = j
+[DEBUG] 2021-02-14 14:35:44.792 [main] UserDao - The list of users [edu.matc.entity.User@40c8067, edu.matc.entity.User@723742b2]
+[DEBUG] 2021-02-14 14:35:44.800 [main] UserDao - Searching for user with userName = j
+[DEBUG] 2021-02-14 14:36:50.459 [main] UserDao - The list of users [edu.matc.entity.User@5763a655, edu.matc.entity.User@48499739]
+[DEBUG] 2021-02-14 14:36:50.468 [main] UserDao - Searching for user with userName = j
+[DEBUG] 2021-02-14 14:37:17.604 [main] UserDao - The list of users [edu.matc.entity.User@77324a58, edu.matc.entity.User@5864e8bf]
+[DEBUG] 2021-02-14 14:37:17.612 [main] UserDao - Searching for user with userName = j
+[DEBUG] 2021-02-14 14:38:11.986 [main] UserDao - The list of users [edu.matc.entity.User@2c7c0e36, edu.matc.entity.User@37ca3ca8]
+[DEBUG] 2021-02-14 14:38:11.993 [main] UserDao - Searching for user with userName = j
+[DEBUG] 2021-02-14 14:40:00.318 [main] UserDao - The list of users [edu.matc.entity.User@70d4f672, edu.matc.entity.User@57cabdc3]
+[DEBUG] 2021-02-14 14:40:00.327 [main] UserDao - Searching for user with userName = j
+[DEBUG] 2021-02-14 14:40:07.184 [main] UserDao - The list of users [edu.matc.entity.User@40c8067, edu.matc.entity.User@723742b2]
+[DEBUG] 2021-02-14 14:40:07.192 [main] UserDao - Searching for user with userName = j
+[DEBUG] 2021-02-14 14:44:29.342 [main] UserDao - The list of users [edu.matc.entity.User@40c8067, edu.matc.entity.User@723742b2]
+[DEBUG] 2021-02-14 14:44:29.351 [main] UserDao - Searching for user with userName = j

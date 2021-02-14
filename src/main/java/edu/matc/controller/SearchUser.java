@@ -2,7 +2,6 @@ package edu.matc.controller;
 
 import edu.matc.persistence.PropertiesLoader;
 import edu.matc.persistence.UserDao;
-import edu.matc.persistence.UserData;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
