@@ -26,7 +26,16 @@ public class User {
      * Instantiates a new User
      */
     public User() {
+    }
 
+    /**
+     * Instantiates a new User with user inserted username and password
+     * @param userName
+     * @param password
+     */
+    public User(String userName, String password) {
+        this.userName = userName;
+        this.password = password;
     }
 
     /**

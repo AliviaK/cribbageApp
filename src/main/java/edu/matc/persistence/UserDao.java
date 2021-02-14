@@ -31,12 +31,14 @@ public class UserDao {
      */
     public void saveOrUpdate(User user) {
         Session session = sessionFactory.openSession();
+        Transaction transaction = session.beginTransaction();
         session.saveOrUpdate(user);
+        transaction.commit();
         session.close();
     }
 
     /**
-     * update user
+     * insert user
      * @param user  User to be inserted or updated
      */
     public int insert(User user) {
