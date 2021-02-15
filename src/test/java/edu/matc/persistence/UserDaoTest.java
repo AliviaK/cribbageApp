@@ -11,10 +11,16 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * Test class to test UserDao methods
+ */
 class UserDaoTest {
     UserDao dao;
     private final Logger logger = LogManager.getLogger(this.getClass());
 
+    /**
+     * Run set up tasks before each test
+     */
     @BeforeEach
     void setUp() {
 
@@ -25,24 +31,36 @@ class UserDaoTest {
 
     }
 
+    /**
+     * Verify successful retrieval of a user
+     */
     @Test
     void getByIdSuccess() {
         User retrievedUser = dao.getById(1000);
         assertNotNull(retrievedUser);
     }
 
+    /**
+     * Verify successful retrieval of a user or users by like keyword
+     */
     @Test
     void getByPropertyLikeSuccess() {
         List<User> users = dao.getByPropertyLike("userName","ird");
         assertEquals(1, users.size());
     }
 
+    /**
+     * Verify successful retrieval of a user or users matching exactly a searched term
+     */
     @Test
     void getByPropertyEqual() {
         List<User> users = dao.getByPropertyEqual("userName","bobPlaysCards");
         assertEquals(1, users.size());
     }
 
+    /**
+     * Verifies successful update of a user
+     */
     @Test
     void updateSuccess() {
         String newUserName = "CribbageSuperStar380";
@@ -53,6 +71,9 @@ class UserDaoTest {
         assertEquals("CribbageSuperStar380", retrievedUser.getUserName());
     }
 
+    /**
+     * Verifies successful insert of a user
+     */
     @Test
     void insertSuccess() {
         User userToInsert = new User("catsAndDogs", "badpassword");
@@ -62,12 +83,18 @@ class UserDaoTest {
         assertEquals("catsAndDogs", insertedUser.getUserName());
     }
 
+    /**
+     * Verifies successful delete of a user
+     */
     @Test
     void deleteSuccess() {
         dao.delete(dao.getById(1000));
         assertNull(dao.getById(1000));
     }
 
+    /**
+     * Verify successful retrieval of all users
+     */
     @Test
     void getAllSuccess() {
         List<User> users = dao.getAll();
