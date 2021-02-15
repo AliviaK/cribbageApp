@@ -1,6 +1,7 @@
 package edu.matc.persistence;
 
 import edu.matc.entity.User;
+import edu.matc.test.util.Database;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.BeforeEach;
@@ -16,7 +17,12 @@ class UserDaoTest {
 
     @BeforeEach
     void setUp() {
+
         dao = new UserDao();
+
+        Database database = Database.getInstance();
+        database.runSQL("cleandb.sql");
+
     }
 
     @Test
@@ -27,18 +33,18 @@ class UserDaoTest {
 
     @Test
     void getByPropertyLikeSuccess() {
-        List<User> users = dao.getByPropertyLike("userName","j");
+        List<User> users = dao.getByPropertyLike("userName","ird");
         assertEquals(1, users.size());
     }
 
     @Test
     void getByPropertyEqual() {
-        List<User> users = dao.getByPropertyEqual("userName","CribbageSuperStar380");
+        List<User> users = dao.getByPropertyEqual("userName","bobPlaysCards");
         assertEquals(1, users.size());
     }
 
     @Test
-    void updateSucess() {
+    void updateSuccess() {
         String newUserName = "CribbageSuperStar380";
         User userToUpdate = dao.getById(1000);
         userToUpdate.setUserName(newUserName);
@@ -58,13 +64,13 @@ class UserDaoTest {
 
     @Test
     void deleteSuccess() {
-        dao.delete(dao.getById(1010));
-        assertNull(dao.getById(1010));
+        dao.delete(dao.getById(1000));
+        assertNull(dao.getById(1000));
     }
 
     @Test
     void getAllSuccess() {
         List<User> users = dao.getAll();
-        assertEquals(6,users.size());
+        assertEquals(2,users.size());
     }
 }

@@ -150,3 +150,118 @@ java.lang.NullPointerException: inStream parameter is null
 [DEBUG] 2021-02-14 16:48:22.200 [main] UserDao - The list of users [edu.matc.entity.User@56a05324, edu.matc.entity.User@11e71181, edu.matc.entity.User@342beaf6, edu.matc.entity.User@222acad, edu.matc.entity.User@56cfe6be, edu.matc.entity.User@7f0d8eff]
 [DEBUG] 2021-02-14 16:48:22.204 [main] UserDao - Searching for user with userName = j
 [DEBUG] 2021-02-14 16:48:22.226 [main] UserDao - Searching for user with userName = CribbageSuperStar380
+[ERROR] 2021-02-14 17:42:45.976 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[ERROR] 2021-02-14 17:42:46.126 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[ERROR] 2021-02-14 17:42:46.157 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[DEBUG] 2021-02-14 17:42:46.273 [main] UserDao - The list of users [edu.matc.entity.User@6b2aafbc, edu.matc.entity.User@50cbcca7, edu.matc.entity.User@49491770, edu.matc.entity.User@5bec3e0, edu.matc.entity.User@3b57dba4, edu.matc.entity.User@35f7969d]
+[ERROR] 2021-02-14 17:42:46.304 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[DEBUG] 2021-02-14 17:42:46.307 [main] UserDao - Searching for user with userName = j
+[ERROR] 2021-02-14 17:42:46.351 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[DEBUG] 2021-02-14 17:42:46.356 [main] UserDao - Searching for user with userName = CribbageSuperStar380
+[ERROR] 2021-02-14 17:42:46.387 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[ERROR] 2021-02-14 17:42:46.416 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[ERROR] 2021-02-14 17:45:27.400 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[ERROR] 2021-02-14 17:45:27.549 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[ERROR] 2021-02-14 17:45:27.578 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[DEBUG] 2021-02-14 17:45:27.693 [main] UserDao - The list of users [edu.matc.entity.User@6b2aafbc, edu.matc.entity.User@50cbcca7, edu.matc.entity.User@49491770, edu.matc.entity.User@5bec3e0, edu.matc.entity.User@3b57dba4, edu.matc.entity.User@35f7969d]
+[ERROR] 2021-02-14 17:45:27.722 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[DEBUG] 2021-02-14 17:45:27.724 [main] UserDao - Searching for user with userName = j
+[ERROR] 2021-02-14 17:45:27.761 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[DEBUG] 2021-02-14 17:45:27.767 [main] UserDao - Searching for user with userName = CribbageSuperStar380
+[ERROR] 2021-02-14 17:45:27.797 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[ERROR] 2021-02-14 17:46:01.223 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[ERROR] 2021-02-14 17:46:01.375 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[ERROR] 2021-02-14 17:46:01.402 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[DEBUG] 2021-02-14 17:46:01.510 [main] UserDao - The list of users [edu.matc.entity.User@204d9edf, edu.matc.entity.User@6b2aafbc, edu.matc.entity.User@50cbcca7, edu.matc.entity.User@49491770, edu.matc.entity.User@5bec3e0]
+[ERROR] 2021-02-14 17:46:01.535 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[DEBUG] 2021-02-14 17:46:01.537 [main] UserDao - Searching for user with userName = j
+[ERROR] 2021-02-14 17:46:01.584 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[DEBUG] 2021-02-14 17:46:01.590 [main] UserDao - Searching for user with userName = CribbageSuperStar380
+[ERROR] 2021-02-14 17:46:01.627 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[ERROR] 2021-02-14 17:46:22.155 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[ERROR] 2021-02-14 17:46:22.295 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[ERROR] 2021-02-14 17:46:22.323 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[DEBUG] 2021-02-14 17:46:22.437 [main] UserDao - The list of users [edu.matc.entity.User@6b2aafbc, edu.matc.entity.User@50cbcca7, edu.matc.entity.User@49491770, edu.matc.entity.User@5bec3e0]
+[ERROR] 2021-02-14 17:46:22.462 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[DEBUG] 2021-02-14 17:46:22.464 [main] UserDao - Searching for user with userName = j
+[ERROR] 2021-02-14 17:46:22.509 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[DEBUG] 2021-02-14 17:46:22.513 [main] UserDao - Searching for user with userName = CribbageSuperStar380
+[ERROR] 2021-02-14 17:46:22.544 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[ERROR] 2021-02-14 17:46:38.187 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[ERROR] 2021-02-14 17:46:38.324 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[ERROR] 2021-02-14 17:46:38.350 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[DEBUG] 2021-02-14 17:46:38.454 [main] UserDao - The list of users [edu.matc.entity.User@6b2aafbc, edu.matc.entity.User@50cbcca7, edu.matc.entity.User@49491770]
+[ERROR] 2021-02-14 17:46:38.484 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[DEBUG] 2021-02-14 17:46:38.486 [main] UserDao - Searching for user with userName = j
+[ERROR] 2021-02-14 17:46:38.527 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[DEBUG] 2021-02-14 17:46:38.533 [main] UserDao - Searching for user with userName = CribbageSuperStar380
+[ERROR] 2021-02-14 17:46:38.566 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[ERROR] 2021-02-14 17:47:20.555 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[ERROR] 2021-02-14 17:47:20.692 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[ERROR] 2021-02-14 17:47:20.718 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[DEBUG] 2021-02-14 17:47:20.832 [main] UserDao - The list of users [edu.matc.entity.User@6b2aafbc, edu.matc.entity.User@50cbcca7]
+[ERROR] 2021-02-14 17:47:20.860 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[DEBUG] 2021-02-14 17:47:20.863 [main] UserDao - Searching for user with userName = j
+[ERROR] 2021-02-14 17:47:20.905 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[DEBUG] 2021-02-14 17:47:20.910 [main] UserDao - Searching for user with userName = CribbageSuperStar380
+[ERROR] 2021-02-14 17:47:20.940 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[ERROR] 2021-02-14 17:47:36.276 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[ERROR] 2021-02-14 17:47:36.383 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[ERROR] 2021-02-14 17:47:36.432 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[DEBUG] 2021-02-14 17:47:36.541 [main] UserDao - The list of users [edu.matc.entity.User@798cf6d2, edu.matc.entity.User@1c1fa494]
+[ERROR] 2021-02-14 17:47:36.566 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[DEBUG] 2021-02-14 17:47:36.569 [main] UserDao - Searching for user with userName = j
+[ERROR] 2021-02-14 17:47:36.617 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[DEBUG] 2021-02-14 17:47:36.622 [main] UserDao - Searching for user with userName = CribbageSuperStar380
+[ERROR] 2021-02-14 17:47:36.658 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[ERROR] 2021-02-14 17:47:56.984 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[ERROR] 2021-02-14 17:47:57.088 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[ERROR] 2021-02-14 17:47:57.134 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[DEBUG] 2021-02-14 17:47:57.242 [main] UserDao - The list of users [edu.matc.entity.User@798cf6d2, edu.matc.entity.User@1c1fa494]
+[ERROR] 2021-02-14 17:47:57.267 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[DEBUG] 2021-02-14 17:47:57.270 [main] UserDao - Searching for user with userName = j
+[ERROR] 2021-02-14 17:47:57.311 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[DEBUG] 2021-02-14 17:47:57.316 [main] UserDao - Searching for user with userName = CribbageSuperStar380
+[ERROR] 2021-02-14 17:47:57.345 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[ERROR] 2021-02-14 17:47:57.371 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[ERROR] 2021-02-14 17:49:10.125 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[ERROR] 2021-02-14 17:49:10.269 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[ERROR] 2021-02-14 17:49:10.297 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[DEBUG] 2021-02-14 17:49:10.403 [main] UserDao - The list of users [edu.matc.entity.User@6b2aafbc, edu.matc.entity.User@50cbcca7]
+[ERROR] 2021-02-14 17:49:10.427 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[DEBUG] 2021-02-14 17:49:10.430 [main] UserDao - Searching for user with userName = j
+[ERROR] 2021-02-14 17:49:10.473 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[DEBUG] 2021-02-14 17:49:10.479 [main] UserDao - Searching for user with userName = CribbageSuperStar380
+[ERROR] 2021-02-14 17:49:10.511 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[ERROR] 2021-02-14 17:49:10.535 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[ERROR] 2021-02-14 17:50:35.050 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[ERROR] 2021-02-14 17:50:35.175 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[ERROR] 2021-02-14 17:50:35.230 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[DEBUG] 2021-02-14 17:50:35.358 [main] UserDao - The list of users [edu.matc.entity.User@798cf6d2, edu.matc.entity.User@1c1fa494, edu.matc.entity.User@77c66a4f]
+[ERROR] 2021-02-14 17:50:35.386 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[DEBUG] 2021-02-14 17:50:35.388 [main] UserDao - Searching for user with userName = ird
+[ERROR] 2021-02-14 17:50:35.430 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[DEBUG] 2021-02-14 17:50:35.436 [main] UserDao - Searching for user with userName = CribbageSuperStar380
+[ERROR] 2021-02-14 17:50:35.467 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[ERROR] 2021-02-14 17:50:35.506 [main] Database - java.sql.SQLSyntaxErrorException: Unknown column 'user_password' in 'field list'
+[DEBUG] 2021-02-14 17:53:02.720 [main] UserDao - The list of users [edu.matc.entity.User@9b367c8, edu.matc.entity.User@54495935]
+[DEBUG] 2021-02-14 17:53:02.797 [main] UserDao - Searching for user with userName = ird
+[DEBUG] 2021-02-14 17:53:02.853 [main] UserDao - Searching for user with userName = CribbageSuperStar380
+[DEBUG] 2021-02-14 17:53:53.219 [main] UserDao - The list of users [edu.matc.entity.User@256589a1, edu.matc.entity.User@99a8de3]
+[DEBUG] 2021-02-14 17:53:53.271 [main] UserDao - Searching for user with userName = ird
+[DEBUG] 2021-02-14 17:53:53.330 [main] UserDao - Searching for user with userName = CribbageSuperStar380
+[DEBUG] 2021-02-14 17:58:04.519 [main] UserDao - The list of users [edu.matc.entity.User@256589a1, edu.matc.entity.User@99a8de3]
+[DEBUG] 2021-02-14 17:58:04.565 [main] UserDao - Searching for user with userName = ird
+[DEBUG] 2021-02-14 17:58:04.626 [main] UserDao - Searching for user with userName = CribbageSuperStar380
+[DEBUG] 2021-02-14 18:00:21.793 [main] UserDao - The list of users [edu.matc.entity.User@6d874695, edu.matc.entity.User@20bb85b4]
+[DEBUG] 2021-02-14 18:00:21.837 [main] UserDao - Searching for user with userName = ird
+[DEBUG] 2021-02-14 18:00:21.901 [main] UserDao - Searching for user with userName = CribbageSuperStar380
+[DEBUG] 2021-02-14 18:00:58.440 [main] UserDao - The list of users [edu.matc.entity.User@256589a1, edu.matc.entity.User@99a8de3]
+[DEBUG] 2021-02-14 18:00:58.484 [main] UserDao - Searching for user with userName = ird
+[DEBUG] 2021-02-14 18:00:58.536 [main] UserDao - Searching for user with userName = CribbageSuperStar380
+[DEBUG] 2021-02-14 18:01:42.753 [main] UserDao - The list of users [edu.matc.entity.User@6d874695, edu.matc.entity.User@20bb85b4]
+[DEBUG] 2021-02-14 18:01:42.800 [main] UserDao - Searching for user with userName = ird
+[DEBUG] 2021-02-14 18:01:42.872 [main] UserDao - Searching for user with userName = CribbageSuperStar380
+[DEBUG] 2021-02-14 18:03:06.449 [main] UserDao - The list of users [edu.matc.entity.User@34009349, edu.matc.entity.User@3f68a7f8]
+[DEBUG] 2021-02-14 18:03:06.495 [main] UserDao - Searching for user with userName = ird
+[DEBUG] 2021-02-14 18:03:06.568 [main] UserDao - Searching for user with userName = bobPlaysCards
