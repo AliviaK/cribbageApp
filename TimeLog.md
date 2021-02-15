@@ -15,3 +15,7 @@ This file keeps track of weekly time spent on project files.
     2/8/2021
         4pm - 6p
         7pm - 10:30pm 
+    2/13
+        3pm - 5pm
+    2/14
+        1:30pm - 6:30pm

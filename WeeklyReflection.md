@@ -25,3 +25,10 @@
     2/8
         Creating Hibernate database for cribbage app, and beginning with user object.
         Added very simple interface to search users by username or show all.
+    2/13
+        Planning for weekly division of work for all classes and project fit into work 
+        schedule, and hopefully this structure wil help keep me on track and conceptualize
+        what I can get done in small time frames. 
+    2/14
+        Completed the addition of the User DAO in my indie project with relative ease. 
+        Will be doing more of this when I create my game database.
