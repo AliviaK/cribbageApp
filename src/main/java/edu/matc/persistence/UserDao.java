@@ -10,6 +10,9 @@ import org.hibernate.Transaction;
 import javax.persistence.criteria.*;
 import java.util.List;
 
+/**
+ * This class is a DAO for the User object
+ */
 public class UserDao {
 
     private final Logger logger = LogManager.getLogger(this.getClass());

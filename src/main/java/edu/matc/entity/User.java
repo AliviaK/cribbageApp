@@ -7,6 +7,12 @@ import org.apache.logging.log4j.Logger;
 
 import javax.persistence.*;
 
+/**
+ * This class represents users in the Cribbage app. Users have a username, password, and auto-generated ID used for
+ * identification and keeping score records.
+ *
+ */
+
 @Entity(name = "User")
 @Table(name = "user")
 public class User {
@@ -51,17 +57,23 @@ public class User {
     }
 
     /**
+     * Gets the user password
      * @return user password
      */
     public String getPassword() {
         return password;
     }
 
+    /**
+     * Gets the user password
+     * @param password the password to be retrieved
+     */
     public void setPassword(String password) {
         this.password = password;
     }
 
     /**
+     * Gets the user name
      * @return username for login
      */
     public String getUserName() {
@@ -69,6 +81,7 @@ public class User {
     }
 
     /**
+     * Sets the user name
      * @param userName the string user's username
      */
     public void setUserName(String userName) {
@@ -76,6 +89,7 @@ public class User {
     }
 
     /**
+     * Gets the user id
      * @return user id
      */
     public int getId() {
@@ -83,6 +97,7 @@ public class User {
     }
 
     /**
+     * Sets the user id
      * @param id the int user's id
      */
     public void setId(int id) {

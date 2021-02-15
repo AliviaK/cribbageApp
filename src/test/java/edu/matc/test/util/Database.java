@@ -12,6 +12,10 @@ import java.util.Properties;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+/**
+ * This class creates a connection to a test database for the cribbage UserDaoTest
+ *
+ */
 public class Database {
     private final Logger logger = LogManager.getLogger(this.getClass());
 
@@ -25,6 +29,9 @@ public class Database {
         loadProperties();
     }
 
+    /**
+     * Loads the database properties
+     */
     private void loadProperties() {
         properties = new Properties();
         try {
@@ -36,14 +43,26 @@ public class Database {
         }
     }
 
+    /**
+     * Gets the instance
+     * @return instance
+     */
     public static Database getInstance() {
         return instance;
     }
 
+    /**
+     * Gets the connection
+     * @return connection
+     */
     public Connection getConnection() {
         return connection;
     }
 
+    /**
+     * Creates a connection to the database
+     * @throws Exception for when any exception occurs
+     */
     public void connect() throws Exception {
         if (connection != null)
             return;
@@ -57,6 +76,9 @@ public class Database {
         connection = DriverManager.getConnection(url, properties.getProperty("username"), properties.getProperty("password"));
     }
 
+    /**
+     * Disconnects the database connection
+     */
     public void disconnect() {
         if (connection != null) {
             try {
@@ -68,6 +90,10 @@ public class Database {
         connection = null;
     }
 
+    /**
+     * Runs sql statement
+     * @param sqlFile the string to be processed
+     */
     public void runSQL(String sqlFile) {
 
         Statement stmt = null;
