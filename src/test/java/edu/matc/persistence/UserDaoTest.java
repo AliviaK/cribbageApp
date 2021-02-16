@@ -88,8 +88,9 @@ class UserDaoTest {
      */
     @Test
     void deleteSuccess() {
-        dao.delete(dao.getById(1000));
-        assertNull(dao.getById(1000));
+        dao.delete(dao.getById(1001));
+        assertNull(dao.getById(1001));
+        logger.info(dao.getById(1001));
     }
 
     /**

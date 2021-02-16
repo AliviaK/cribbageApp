@@ -1,0 +1,12 @@
+[INFO ] 2021-02-15 20:55:14.096 [main] UserDaoTest - null
+[DEBUG] 2021-02-15 20:55:14.238 [main] UserDao - The list of users [edu.matc.entity.User@2616b618, edu.matc.entity.User@73bb573d]
+[DEBUG] 2021-02-15 20:55:14.276 [main] UserDao - Searching for user with userName = ird
+[DEBUG] 2021-02-15 20:55:14.330 [main] UserDao - Searching for user with userName = bobPlaysCards
+[INFO ] 2021-02-15 20:56:54.568 [main] UserDaoTest - null
+[DEBUG] 2021-02-15 20:56:54.710 [main] UserDao - The list of users [edu.matc.entity.User@79be91eb, edu.matc.entity.User@626c569b]
+[DEBUG] 2021-02-15 20:56:54.825 [main] UserDao - Searching for user with userName = ird
+[DEBUG] 2021-02-15 20:56:54.913 [main] UserDao - Searching for user with userName = bobPlaysCards
+[INFO ] 2021-02-15 21:00:37.260 [main] UserDaoTest - null
+[DEBUG] 2021-02-15 21:00:37.392 [main] UserDao - The list of users [edu.matc.entity.User@4f213a2, edu.matc.entity.User@25699aa7]
+[DEBUG] 2021-02-15 21:00:37.432 [main] UserDao - Searching for user with userName = ird
+[DEBUG] 2021-02-15 21:00:37.514 [main] UserDao - Searching for user with userName = bobPlaysCards
