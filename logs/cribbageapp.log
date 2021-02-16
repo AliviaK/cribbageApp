@@ -271,3 +271,7 @@ java.lang.NullPointerException: inStream parameter is null
 [DEBUG] 2021-02-14 18:16:44.750 [main] UserDao - The list of users [edu.matc.entity.User@34009349, edu.matc.entity.User@3f68a7f8]
 [DEBUG] 2021-02-14 18:16:44.794 [main] UserDao - Searching for user with userName = ird
 [DEBUG] 2021-02-14 18:16:44.858 [main] UserDao - Searching for user with userName = bobPlaysCards
+[DEBUG] 2021-02-16 14:18:15.305 [main] UserDao - Searching for user with userName = ird
+[DEBUG] 2021-02-16 14:18:15.407 [main] UserDao - Searching for user with userName = bobPlaysCards
+[DEBUG] 2021-02-16 14:19:34.425 [main] UserDao - Searching for user with userName = ird
+[DEBUG] 2021-02-16 14:19:34.535 [main] UserDao - Searching for user with userName = bobPlaysCards
