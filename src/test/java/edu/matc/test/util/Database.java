@@ -98,24 +98,32 @@ public class Database {
 
         Statement stmt = null;
         ClassLoader classloader = Thread.currentThread().getContextClassLoader();
-        InputStream inputStream = classloader.getResourceAsStream(sqlFile);
-        try (BufferedReader br = new BufferedReader(new InputStreamReader(inputStream))) {
-            Class.forName("com.mysql.jdbc.Driver");
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(classloader.getResourceAsStream(sqlFile))))  {
+
             connect();
             stmt = connection.createStatement();
-            while (true) {
-                String sql = br.readLine();
-                if (sql == null) {
-                    break;
+
+            String sql = "";
+            while (br.ready())
+            {
+                char inputValue = (char)br.read();
+
+                if(inputValue == ';')
+                {
+                    stmt.executeUpdate(sql);
+                    sql = "";
                 }
-                stmt.executeUpdate(sql);
+                else
+                    sql += inputValue;
             }
+
         } catch (SQLException se) {
-            logger.error(se);
+            logger.error("SQL Exception" + se);
         } catch (Exception e) {
-            logger.error(e);
+            logger.error("Exception" + e);
         } finally {
             disconnect();
         }
+
     }
 }
