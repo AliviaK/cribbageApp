@@ -19,3 +19,13 @@ This file keeps track of weekly time spent on project files.
         3pm - 5pm
     2/14
         1:30pm - 6:30pm
+## Week 5:
+    2/15
+        4:30 - 8:00pm
+    2/19
+        12:30-2:30
+    2/20
+        2pm - 5pm
+        8:30pm - 10:30pm
+    2/21
+        11am - 12:30am

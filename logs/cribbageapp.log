@@ -432,3 +432,25 @@ java.lang.NullPointerException: inStream parameter is null
 [INFO ] 2021-02-21 12:27:18.272 [main] UserDaoTest - null
 [DEBUG] 2021-02-21 12:27:18.365 [main] GenericDao - Searching for entity with userName = ird
 [DEBUG] 2021-02-21 12:27:18.418 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[DEBUG] 2021-02-21 12:29:14.665 [http-nio-8080-exec-3] GenericDao - Searching for entity with userName = i_love_java
+[DEBUG] 2021-02-21 12:29:28.344 [http-nio-8080-exec-5] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-02-21 12:41:39.377 [main] GameDaoTest - null
+[DEBUG] 2021-02-21 12:41:39.582 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-02-21 12:41:39.860 [main] UserDaoTest - null
+[DEBUG] 2021-02-21 12:41:39.953 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-02-21 12:41:40.002 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-02-21 12:43:59.633 [main] GameDaoTest - null
+[DEBUG] 2021-02-21 12:43:59.883 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-02-21 12:44:00.188 [main] UserDaoTest - null
+[DEBUG] 2021-02-21 12:44:00.286 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-02-21 12:44:00.335 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-02-21 12:48:33.014 [main] GameDaoTest - null
+[DEBUG] 2021-02-21 12:48:33.237 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-02-21 12:48:33.561 [main] UserDaoTest - null
+[DEBUG] 2021-02-21 12:48:33.648 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-02-21 12:48:33.702 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-02-21 12:49:34.513 [main] GameDaoTest - null
+[DEBUG] 2021-02-21 12:49:34.840 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-02-21 12:49:35.198 [main] UserDaoTest - null
+[DEBUG] 2021-02-21 12:49:35.295 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-02-21 12:49:35.346 [main] GenericDao - Searching for entity with userName = bobPlaysCards

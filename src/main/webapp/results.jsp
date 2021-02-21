@@ -22,7 +22,7 @@
                 <td>${user.id}</td>
                 <td>
                     <c:forEach var="game" items="${user.games}">
-                        ${game.gameId} ${game.userScore}
+                        ${game.gameId} <br />
                     </c:forEach>
                 </td>
             </tr>

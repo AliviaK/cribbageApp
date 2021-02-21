@@ -34,3 +34,18 @@
     2/14
         Completed the addition of the User DAO in my indie project with relative ease. 
         Will be doing more of this when I create my game database.
+## Week 5:
+    2/15
+        Followed videos 1 and 2 of this week, and created a Games table in my test database
+        to build the test first.
+
+    2/19
+        Troubleshooting and planning for my database and table data structures. Watched 
+        more videos and finalized Games table structure.
+
+    2/20
+        Converted to GenericDao and passed all but one test for User and Game dao
+        implementations. Got stuck on passing User object to game dao.
+
+    2/21
+        Passed final test and created basic jsp to view users and ids of games played.
