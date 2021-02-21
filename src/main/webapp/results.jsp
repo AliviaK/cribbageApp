@@ -10,6 +10,7 @@
         <tr>
             <th>Username</th>
             <th>ID</th>
+            <th>Games</th>
         </tr>
         </thead>
         <tbody>
@@ -19,6 +20,11 @@
             <tr>
                 <td>${user.userName}</td>
                 <td>${user.id}</td>
+                <td>
+                    <c:forEach var="game" items="${user.games}">
+                        ${game.gameId} ${game.userScore}
+                    </c:forEach>
+                </td>
             </tr>
         </c:forEach>
 

@@ -412,3 +412,23 @@ java.lang.NullPointerException: inStream parameter is null
 [INFO ] 2021-02-21 10:10:58.121 [main] UserDaoTest - null
 [DEBUG] 2021-02-21 10:10:58.216 [main] GenericDao - Searching for entity with userName = ird
 [DEBUG] 2021-02-21 10:10:58.281 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-02-21 12:19:16.482 [main] GameDaoTest - null
+[DEBUG] 2021-02-21 12:19:16.736 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-02-21 12:19:17.057 [main] UserDaoTest - null
+[DEBUG] 2021-02-21 12:19:17.144 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-02-21 12:19:17.193 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-02-21 12:25:27.256 [main] GameDaoTest - null
+[DEBUG] 2021-02-21 12:25:27.476 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-02-21 12:25:27.783 [main] UserDaoTest - null
+[DEBUG] 2021-02-21 12:25:27.866 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-02-21 12:25:27.924 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-02-21 12:25:49.161 [main] GameDaoTest - null
+[DEBUG] 2021-02-21 12:25:49.396 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-02-21 12:25:49.718 [main] UserDaoTest - null
+[DEBUG] 2021-02-21 12:25:49.809 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-02-21 12:25:49.857 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-02-21 12:27:17.761 [main] GameDaoTest - null
+[DEBUG] 2021-02-21 12:27:17.985 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-02-21 12:27:18.272 [main] UserDaoTest - null
+[DEBUG] 2021-02-21 12:27:18.365 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-02-21 12:27:18.418 [main] GenericDao - Searching for entity with userName = bobPlaysCards
