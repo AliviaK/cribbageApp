@@ -132,4 +132,24 @@ public class User {
     public void setId(int id) {
         this.id = id;
     }
+
+    /**
+     * Add game.
+     *
+     * @param game the game
+     */
+    public void addGame(Game game) {
+        games.add(game);
+        game.setUser(this);
+    }
+
+    /**
+     * Remove game.
+     *
+     * @param game the game
+     */
+    public void removeGame(Game game) {
+        games.remove(game);
+        game.setUser(null);
+    }
 }

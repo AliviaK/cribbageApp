@@ -3,13 +3,14 @@ package edu.matc.entity;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
+import java.time.LocalDate;
 import java.util.Date;
 
 /**
  * The type Game.
  */
 @Entity(name = "Game")
-@Table(name = "orders")
+@Table(name = "games")
 public class Game {
 
     @Id
@@ -28,21 +29,32 @@ public class Game {
     private int cpuScore;
 
     @Column(name = "time_played")
-    private Date timePlayed;
+    private LocalDate timePlayed;
+
+    /**
+     * Instantiates a new Game.
+     */
+    public Game() {}
+
+    /**
+     * Instantiates a new Game.
+     */
+    public Game(User user, int userScore, int cpuScore, LocalDate timePlayed) {
+        this.user = user;
+        this.userScore = userScore;
+        this.cpuScore = cpuScore;
+        this.timePlayed = timePlayed;
+    }
 
     /**
      * Gets time played.
      *
      * @return the time played
      */
-    public Date getTimePlayed() {
+    public LocalDate getTimePlayed() {
         return timePlayed;
     }
 
-    /**
-     * Instantiates a new Game.
-     */
-    public Game() {}
 
     /**
      * Gets game id.
@@ -121,7 +133,7 @@ public class Game {
      *
      * @param timePlayed the time played
      */
-    public void setTimePlayed(Date timePlayed) {
+    public void setTimePlayed(LocalDate timePlayed) {
         this.timePlayed = timePlayed;
     }
 

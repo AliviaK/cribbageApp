@@ -1,7 +1,8 @@
 package edu.matc.controller;
 
+import edu.matc.entity.User;
+import edu.matc.persistence.GenericDao;
 import edu.matc.persistence.PropertiesLoader;
-import edu.matc.persistence.UserDao;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -27,13 +28,13 @@ public class SearchUser extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        UserDao userDao = new UserDao();
+        GenericDao<User> dao = new GenericDao<>();
         String username = req.getParameter("username");
 
         if (username != null) {
-            req.setAttribute("users", userDao.getByPropertyLike("userName", username));
+            req.setAttribute("users", dao.getByPropertyLike("userName", username));
         } else {
-            req.setAttribute("users", userDao.getAll());
+            req.setAttribute("users", dao.getAll());
         }
         RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
         dispatcher.forward(req, resp);

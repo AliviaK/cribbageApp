@@ -1,7 +1,8 @@
 package edu.matc.controller;
 
+import edu.matc.entity.User;
+import edu.matc.persistence.GenericDao;
 import edu.matc.persistence.PropertiesLoader;
-import edu.matc.persistence.UserDao;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -35,7 +36,7 @@ public class AddUser extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        UserDao userDao = new UserDao();
+        GenericDao userDao = new GenericDao(User.class);
         String username = request.getParameter("username");
 
         if (username != null) {

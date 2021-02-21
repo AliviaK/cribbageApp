@@ -275,3 +275,140 @@ java.lang.NullPointerException: inStream parameter is null
 [DEBUG] 2021-02-16 14:18:15.407 [main] UserDao - Searching for user with userName = bobPlaysCards
 [DEBUG] 2021-02-16 14:19:34.425 [main] UserDao - Searching for user with userName = ird
 [DEBUG] 2021-02-16 14:19:34.535 [main] UserDao - Searching for user with userName = bobPlaysCards
+[INFO ] 2021-02-20 15:10:32.066 [main] UserDaoTest - null
+[DEBUG] 2021-02-20 15:10:32.230 [main] UserDao - The list of users [edu.matc.entity.User@44641d6c, edu.matc.entity.User@1ae924f1]
+[DEBUG] 2021-02-20 15:10:32.280 [main] UserDao - Searching for user with userName = ird
+[DEBUG] 2021-02-20 15:10:32.346 [main] UserDao - Searching for user with userName = bobPlaysCards
+[INFO ] 2021-02-20 16:21:23.365 [main] UserDaoTest - null
+[DEBUG] 2021-02-20 16:21:23.517 [main] UserDao - The list of users [edu.matc.entity.User@5be4be74, edu.matc.entity.User@44641d6c]
+[DEBUG] 2021-02-20 16:21:23.564 [main] UserDao - Searching for user with userName = ird
+[DEBUG] 2021-02-20 16:21:23.677 [main] UserDao - Searching for user with userName = bobPlaysCards
+[DEBUG] 2021-02-20 16:31:57.996 [main] GameDao - The list of games [Game{gameId=8, user=edu.matc.entity.User@25567581, userScore=121, cpuScore=55, timePlayed=2021-02-20}, Game{gameId=9, user=edu.matc.entity.User@25567581, userScore=66, cpuScore=121, timePlayed=2021-02-06}, Game{gameId=10, user=edu.matc.entity.User@25567581, userScore=121, cpuScore=93, timePlayed=2020-06-14}, Game{gameId=11, user=edu.matc.entity.User@c5e69a5, userScore=79, cpuScore=121, timePlayed=2020-09-02}]
+[DEBUG] 2021-02-20 16:31:58.047 [main] GameDao - Searching for game with userId = 100
+[DEBUG] 2021-02-20 16:31:58.107 [main] GameDao - Searching for game with userId = 1000
+[INFO ] 2021-02-20 16:38:12.676 [main] GameDaoTest - null
+[DEBUG] 2021-02-20 16:38:33.352 [main] GameDao - Searching for game with userId = 100
+[DEBUG] 2021-02-20 16:40:17.382 [main] GameDao - Searching for game with user = 100
+[INFO ] 2021-02-20 16:43:08.984 [main] GameDaoTest - null
+[DEBUG] 2021-02-20 16:43:09.141 [main] GameDao - The list of games [Game{gameId=8, user=edu.matc.entity.User@5fd8dd66, userScore=121, cpuScore=55, timePlayed=2021-02-20}, Game{gameId=9, user=edu.matc.entity.User@5fd8dd66, userScore=66, cpuScore=121, timePlayed=2021-02-06}, Game{gameId=10, user=edu.matc.entity.User@5fd8dd66, userScore=121, cpuScore=93, timePlayed=2020-06-14}, Game{gameId=11, user=edu.matc.entity.User@55c50f52, userScore=79, cpuScore=121, timePlayed=2020-09-02}]
+[DEBUG] 2021-02-20 16:43:09.194 [main] GameDao - Searching for game with userScore = 12
+[DEBUG] 2021-02-20 16:43:09.270 [main] GameDao - Searching for game with userScore = 121
+[DEBUG] 2021-02-20 16:43:59.781 [main] GameDao - Searching for game with userScore = 121
+[DEBUG] 2021-02-20 16:44:27.210 [main] GameDao - Searching for game with userScore = 121
+[DEBUG] 2021-02-20 16:44:34.415 [main] GameDao - Searching for game with userScore = 12
+[DEBUG] 2021-02-20 16:46:52.235 [main] GameDao - Searching for game with gameId = 1
+[DEBUG] 2021-02-20 16:50:44.343 [main] GameDao - Searching for game with gameId = 1
+[DEBUG] 2021-02-20 16:53:08.328 [main] GameDao - Searching for game with timePlayed = 2020
+[DEBUG] 2021-02-20 16:54:22.233 [main] GameDao - Searching for game with timePlayed = 2020
+[DEBUG] 2021-02-20 16:57:51.507 [main] GameDao - Searching for game with user.userId = 100
+[DEBUG] 2021-02-20 16:58:31.045 [main] GameDao - Searching for game with user = 100
+[DEBUG] 2021-02-20 17:24:05.682 [main] GameDao - Searching for game with userId = 100
+[DEBUG] 2021-02-20 17:25:00.594 [main] GameDao - Searching for game with user = 100
+[DEBUG] 2021-02-20 17:26:11.434 [main] GameDao - Searching for game with userScore = 1
+[DEBUG] 2021-02-20 17:26:34.422 [main] GameDao - Searching for game with userScore = 1
+[DEBUG] 2021-02-20 17:28:26.774 [main] GameDao - Searching for game with userScore = 1
+[DEBUG] 2021-02-20 17:30:50.382 [main] GameDao - Searching for game with cpuScore = 1
+[DEBUG] 2021-02-20 17:36:01.198 [main] GameDao - Searching for game with cpuScore = 1
+[INFO ] 2021-02-20 17:36:39.801 [main] GameDaoTest - null
+[DEBUG] 2021-02-20 17:36:39.969 [main] GameDao - The list of games [Game{gameId=8, user=edu.matc.entity.User@5fd8dd66, userScore=121, cpuScore=55, timePlayed=2021-02-20}, Game{gameId=9, user=edu.matc.entity.User@5fd8dd66, userScore=66, cpuScore=121, timePlayed=2021-02-06}, Game{gameId=10, user=edu.matc.entity.User@5fd8dd66, userScore=121, cpuScore=93, timePlayed=2020-06-14}, Game{gameId=11, user=edu.matc.entity.User@55c50f52, userScore=79, cpuScore=121, timePlayed=2020-09-02}]
+[DEBUG] 2021-02-20 17:36:40.033 [main] GameDao - Searching for game with cpuScore = 1
+[DEBUG] 2021-02-20 17:36:40.113 [main] GameDao - Searching for game with userScore = 121
+[DEBUG] 2021-02-20 17:38:15.641 [main] GameDao - Searching for game with userScore = 1
+[DEBUG] 2021-02-20 17:39:53.107 [main] GameDao - Searching for game with cpuScore = 1
+[DEBUG] 2021-02-20 17:42:37.041 [main] GameDao - Searching for game with timePlayed = 2020
+[INFO ] 2021-02-20 17:44:42.765 [main] GameDaoTest - null
+[DEBUG] 2021-02-20 17:44:42.938 [main] GameDao - The list of games [Game{gameId=8, user=edu.matc.entity.User@1d17423f, userScore=121, cpuScore=55, timePlayed=2021-02-20}, Game{gameId=9, user=edu.matc.entity.User@1d17423f, userScore=66, cpuScore=121, timePlayed=2021-02-06}, Game{gameId=10, user=edu.matc.entity.User@1d17423f, userScore=121, cpuScore=93, timePlayed=2020-06-14}, Game{gameId=11, user=edu.matc.entity.User@1515f782, userScore=79, cpuScore=121, timePlayed=2020-09-02}]
+[DEBUG] 2021-02-20 17:44:42.991 [main] GameDao - Searching for game with timePlayed = 2020
+[DEBUG] 2021-02-20 17:44:43.067 [main] GameDao - Searching for game with userScore = 121
+[INFO ] 2021-02-20 17:44:43.489 [main] UserDaoTest - null
+[DEBUG] 2021-02-20 17:44:43.539 [main] UserDao - The list of users [edu.matc.entity.User@786a3477, edu.matc.entity.User@286866cb]
+[DEBUG] 2021-02-20 17:44:43.575 [main] UserDao - Searching for user with userName = ird
+[DEBUG] 2021-02-20 17:44:43.617 [main] UserDao - Searching for user with userName = bobPlaysCards
+[INFO ] 2021-02-20 17:46:04.528 [main] GameDaoTest - null
+[DEBUG] 2021-02-20 17:46:04.697 [main] GameDao - The list of games [Game{gameId=8, user=edu.matc.entity.User@50a7c72b, userScore=121, cpuScore=55, timePlayed=2021-02-20}, Game{gameId=9, user=edu.matc.entity.User@50a7c72b, userScore=66, cpuScore=121, timePlayed=2021-02-06}, Game{gameId=10, user=edu.matc.entity.User@50a7c72b, userScore=121, cpuScore=93, timePlayed=2020-06-14}, Game{gameId=11, user=edu.matc.entity.User@d108406, userScore=79, cpuScore=121, timePlayed=2020-09-02}]
+[DEBUG] 2021-02-20 17:46:04.749 [main] GameDao - Searching for game with timePlayed = 2020
+[DEBUG] 2021-02-20 17:46:04.839 [main] GameDao - Searching for game with userScore = 121
+[INFO ] 2021-02-20 17:46:05.257 [main] UserDaoTest - null
+[DEBUG] 2021-02-20 17:46:05.310 [main] UserDao - The list of users [edu.matc.entity.User@3eac2e8a, edu.matc.entity.User@352f6727]
+[DEBUG] 2021-02-20 17:46:05.354 [main] UserDao - Searching for user with userName = ird
+[DEBUG] 2021-02-20 17:46:05.399 [main] UserDao - Searching for user with userName = bobPlaysCards
+[DEBUG] 2021-02-20 17:47:08.381 [main] GameDao - Searching for game with timePlayed = 20
+[DEBUG] 2021-02-20 17:55:28.011 [main] GameDao - Searching for game with timePlayed = 20
+[DEBUG] 2021-02-20 17:58:04.336 [main] GameDao - Searching for game with timePlayed = 20
+[INFO ] 2021-02-20 17:58:30.956 [main] GameDaoTest - null
+[DEBUG] 2021-02-20 17:58:31.134 [main] GameDao - The list of games [Game{gameId=8, user=edu.matc.entity.User@32a8ca06, userScore=121, cpuScore=55, timePlayed=2021-02-20}, Game{gameId=9, user=edu.matc.entity.User@32a8ca06, userScore=66, cpuScore=121, timePlayed=2021-02-06}, Game{gameId=10, user=edu.matc.entity.User@32a8ca06, userScore=121, cpuScore=93, timePlayed=2020-06-14}, Game{gameId=11, user=edu.matc.entity.User@6a5dd083, userScore=79, cpuScore=121, timePlayed=2020-09-02}]
+[DEBUG] 2021-02-20 17:58:31.187 [main] GameDao - Searching for game with timePlayed = 20
+[DEBUG] 2021-02-20 17:58:31.266 [main] GameDao - Searching for game with userScore = 121
+[INFO ] 2021-02-20 17:58:31.579 [main] UserDaoTest - null
+[DEBUG] 2021-02-20 17:58:31.630 [main] UserDao - The list of users [edu.matc.entity.User@4fd80300, edu.matc.entity.User@1805383]
+[DEBUG] 2021-02-20 17:58:31.679 [main] UserDao - Searching for user with userName = ird
+[DEBUG] 2021-02-20 17:58:31.779 [main] UserDao - Searching for user with userName = bobPlaysCards
+[DEBUG] 2021-02-20 17:59:31.160 [main] GameDao - Searching for game with userId = 100
+[DEBUG] 2021-02-20 17:59:50.959 [main] GameDao - Searching for game with user = 100
+[DEBUG] 2021-02-20 18:59:03.291 [main] GameDao - Searching for game with user = 100
+[DEBUG] 2021-02-20 19:00:04.541 [main] GameDao - Searching for game with userScore = 1
+[DEBUG] 2021-02-20 19:04:07.310 [main] GameDao - Searching for game with userScore = 1
+[DEBUG] 2021-02-20 19:05:58.361 [main] GameDao - Searching for game with userScore = 121
+[DEBUG] 2021-02-20 19:06:08.750 [main] GameDao - Searching for game with userScore = 121
+[DEBUG] 2021-02-20 19:20:21.445 [main] GameDao - Searching for game with userScore = 121
+[DEBUG] 2021-02-20 19:21:09.097 [main] GameDao - Searching for game with userScore = 121
+[DEBUG] 2021-02-20 19:42:00.876 [main] GameDao - Searching for game with userScore = 121
+[INFO ] 2021-02-20 19:42:52.651 [main] GameDaoTest - null
+[DEBUG] 2021-02-20 19:42:52.818 [main] GameDao - The list of games [Game{gameId=8, user=edu.matc.entity.User@2424cb9d, userScore=121, cpuScore=55, timePlayed=2021-02-20}, Game{gameId=9, user=edu.matc.entity.User@2424cb9d, userScore=66, cpuScore=121, timePlayed=2021-02-06}, Game{gameId=10, user=edu.matc.entity.User@2424cb9d, userScore=121, cpuScore=93, timePlayed=2020-06-14}, Game{gameId=11, user=edu.matc.entity.User@4567fb2b, userScore=79, cpuScore=121, timePlayed=2020-09-02}]
+[DEBUG] 2021-02-20 19:42:52.870 [main] GameDao - Searching for game with userScore = 121
+[DEBUG] 2021-02-20 19:42:52.967 [main] GameDao - Searching for game with userScore = 121
+[DEBUG] 2021-02-20 23:11:24.997 [main] GameDao - Searching for game with user = 100
+[INFO ] 2021-02-20 23:27:19.596 [main] GameDaoTest - null
+[DEBUG] 2021-02-20 23:48:28.363 [main] GenericDao - Searching for entity with userScore = 121
+[DEBUG] 2021-02-20 23:50:04.731 [main] GenericDao - Searching for entity with user = 100
+[DEBUG] 2021-02-20 23:52:16.443 [main] GenericDao - Searching for entity with userScore = 1
+[INFO ] 2021-02-20 23:53:02.795 [main] GameDaoTest - null
+[DEBUG] 2021-02-20 23:53:03.001 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-02-20 23:53:18.172 [main] GameDaoTest - null
+[DEBUG] 2021-02-20 23:53:18.388 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-02-20 23:54:02.834 [main] GameDaoTest - null
+[DEBUG] 2021-02-20 23:54:03.048 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-02-20 23:57:12.708 [main] GameDaoTest - null
+[DEBUG] 2021-02-20 23:57:12.943 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-02-20 23:59:25.625 [main] UserDaoTest - null
+[DEBUG] 2021-02-20 23:59:25.776 [main] UserDao - The list of users [edu.matc.entity.User@aca3c85, edu.matc.entity.User@45eab322]
+[DEBUG] 2021-02-20 23:59:25.833 [main] UserDao - Searching for user with userName = ird
+[DEBUG] 2021-02-20 23:59:25.908 [main] UserDao - Searching for user with userName = bobPlaysCards
+[DEBUG] 2021-02-21 00:01:46.695 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-02-21 00:02:02.789 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-02-21 00:04:21.039 [main] UserDaoTest - null
+[INFO ] 2021-02-21 00:04:48.755 [main] UserDaoTest - null
+[DEBUG] 2021-02-21 00:04:48.946 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-02-21 00:04:49.025 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-02-21 00:17:51.538 [main] UserDaoTest - null
+[DEBUG] 2021-02-21 00:17:51.759 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-02-21 00:17:51.825 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-02-21 00:18:07.626 [main] GameDaoTest - null
+[DEBUG] 2021-02-21 00:18:07.829 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-02-21 00:27:06.317 [main] UserDaoTest - null
+[DEBUG] 2021-02-21 00:27:06.534 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-02-21 00:27:06.623 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-02-21 00:28:46.327 [main] GameDaoTest - null
+[INFO ] 2021-02-21 00:31:14.753 [main] GameDaoTest - null
+[INFO ] 2021-02-21 09:43:55.670 [main] GameDaoTest - null
+[DEBUG] 2021-02-21 09:43:55.903 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-02-21 09:45:29.562 [main] UserDaoTest - null
+[DEBUG] 2021-02-21 09:45:29.761 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-02-21 09:45:29.839 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-02-21 09:49:34.050 [main] GameDaoTest - user info: null
+[INFO ] 2021-02-21 09:52:57.775 [main] GameDaoTest - user info: edu.matc.entity.User@41e8d917
+[INFO ] 2021-02-21 09:53:37.766 [main] GameDaoTest - null
+[DEBUG] 2021-02-21 09:53:37.974 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-02-21 09:53:38.262 [main] UserDaoTest - null
+[DEBUG] 2021-02-21 09:53:38.349 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-02-21 09:53:38.395 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-02-21 10:07:24.445 [main] GameDaoTest - null
+[DEBUG] 2021-02-21 10:07:24.775 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-02-21 10:07:25.137 [main] UserDaoTest - null
+[DEBUG] 2021-02-21 10:07:25.234 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-02-21 10:07:25.288 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-02-21 10:10:57.440 [main] GameDaoTest - null
+[DEBUG] 2021-02-21 10:10:57.738 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-02-21 10:10:58.121 [main] UserDaoTest - null
+[DEBUG] 2021-02-21 10:10:58.216 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-02-21 10:10:58.281 [main] GenericDao - Searching for entity with userName = bobPlaysCards
