@@ -49,3 +49,8 @@
 
     2/21
         Passed final test and created basic jsp to view users and ids of games played.
+## Week 6
+    2/21
+        Got an early start this week by getting through the readings and videos on Sunday.
+        Deployed my cribbageapp to AWS and will be spending the rest of the 
+        time before class furthering my project plan schedule and database structure.

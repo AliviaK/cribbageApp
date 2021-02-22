@@ -29,3 +29,7 @@ This file keeps track of weekly time spent on project files.
         8:30pm - 10:30pm
     2/21
         11am - 12:30am
+## Week 6:
+2/21
+    1:30pm - 4:00
+    7:00pm - 9:30pm
