@@ -54,3 +54,10 @@
         Got an early start this week by getting through the readings and videos on Sunday.
         Deployed my cribbageapp to AWS and will be spending the rest of the 
         time before class furthering my project plan schedule and database structure.
+
+## Week 7
+    3/1
+        Had a difficult week and fell behind in the exercises after nearly completing 
+        exercise 6 a week ago. All but made port 8080 open to all and set the alarm for 
+        reboot, which I have completed today. Submitted my reviews of peer project checkpoints
+        and a peer research project on Gradle.
