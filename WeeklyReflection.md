@@ -61,3 +61,7 @@
         exercise 6 a week ago. All but made port 8080 open to all and set the alarm for 
         reboot, which I have completed today. Submitted my reviews of peer project checkpoints
         and a peer research project on Gradle.
+    3/7
+        I added an admin role and granted admin access to a user I'd previously created,
+        all into my project. It went smoothly as soon as I realized I didn't have the right
+        realm name.

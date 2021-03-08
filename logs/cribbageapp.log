@@ -499,3 +499,8 @@ java.lang.NullPointerException: inStream parameter is null
 [INFO ] 2021-03-07 22:25:07.611 [main] UserDaoTest - null
 [DEBUG] 2021-03-07 22:25:07.695 [main] GenericDao - Searching for entity with userName = ird
 [DEBUG] 2021-03-07 22:25:07.750 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-03-07 22:29:53.017 [main] GameDaoTest - null
+[DEBUG] 2021-03-07 22:29:53.294 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-03-07 22:29:53.642 [main] UserDaoTest - null
+[DEBUG] 2021-03-07 22:29:53.738 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-03-07 22:29:53.788 [main] GenericDao - Searching for entity with userName = bobPlaysCards
