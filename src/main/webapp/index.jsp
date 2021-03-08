@@ -4,17 +4,9 @@
 <html>
 <body>
 <div class="container-fluid">
-    <h2>Find Friends:</h2>
-    <div class="form-group">
-        <form action="searchUser" method="GET">
-            <label for="username">Search Type: </label>
-            <input type="text" name="username" id="username"/>
-            <br />
-            <input type="submit" name="searchDetails" value="Enter" />
-        </form>
-    </div>
-    <br />
-    <a href = "searchUser">See All Users</a>
+    <h2>Cribbage Application</h2>
+    <a href="search.jsp">Click here to search for users (admin only)</a>
+
 </div>
 
 </body>
