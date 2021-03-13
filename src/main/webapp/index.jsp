@@ -5,7 +5,12 @@
 <body>
 <div class="container-fluid">
     <h2>Cribbage Application</h2>
-    <a href="search.jsp">Click here to search for users (admin only)</a>
+    <a href= 'loginAction'><button>Log In</button></a>
+
+    <c:if test="${pageContext.request.isUserInRole('admin')}">
+        <a href="search.jsp">Click here to search for users (admin only)</a>
+    </c:if>
+
 
 </div>
 

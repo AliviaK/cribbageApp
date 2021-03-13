@@ -64,4 +64,5 @@
     3/7
         I added an admin role and granted admin access to a user I'd previously created,
         all into my project. It went smoothly as soon as I realized I didn't have the right
-        realm name.
+        realm name. Added the login button as well. Beginning to put together materials for 
+        independent research topic.
