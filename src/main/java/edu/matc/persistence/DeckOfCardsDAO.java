@@ -2,7 +2,7 @@ package edu.matc.persistence;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import edu.matc.deckOfCards.Deck;
+import edu.matc.deckOfCards.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -16,7 +16,7 @@ public class DeckOfCardsDAO {
         final Logger logger = LogManager.getLogger(PropertiesLoader.class);
         Client client = ClientBuilder.newClient();
         WebTarget target =
-                client.target("https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1");
+                client.target("https://deckofcardsapi.com/api/deck/urwz20x4b8z7/draw/?count=2");
         String response = target.request(MediaType.APPLICATION_JSON).get(String.class);
         ObjectMapper mapper = new ObjectMapper();
         Deck deck = null;
