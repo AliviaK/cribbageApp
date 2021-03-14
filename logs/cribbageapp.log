@@ -529,3 +529,4 @@ java.lang.NullPointerException: inStream parameter is null
 [INFO ] 2021-03-13 15:08:24.908 [main] UserDaoTest - null
 [DEBUG] 2021-03-13 15:08:25.001 [main] GenericDao - Searching for entity with userName = ird
 [DEBUG] 2021-03-13 15:08:25.056 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-03-13 15:08:58.203 [http-nio-8080-exec-3] LoginAction - the logged in user: catsAndDogs has a role of admin: true
