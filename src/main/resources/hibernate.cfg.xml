@@ -19,6 +19,9 @@
 
         <mapping class="edu.matc.entity.User"/>
         <mapping class="edu.matc.entity.Game"/>
+        <mapping class="edu.matc.entity.Player"/>
+        <mapping class="edu.matc.entity.Deck"/>
+
 
     </session-factory>
 
