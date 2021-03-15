@@ -66,3 +66,7 @@
         all into my project. It went smoothly as soon as I realized I didn't have the right
         realm name. Added the login button as well. Beginning to put together materials for 
         independent research topic.
+
+## Week 8
+    3/13
+        Implemented DeckOfCardsAPI and it went very smoothly.
