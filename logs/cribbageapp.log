@@ -860,3 +860,20 @@ com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized f
 	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) [junit-rt.jar:?]
 	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220) [junit-rt.jar:?]
 	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53) [junit-rt.jar:?]
+[INFO ] 2021-03-22 16:55:59.130 [main] GameDaoTest - null
+[DEBUG] 2021-03-22 16:55:59.357 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-03-22 16:55:59.711 [main] UserDaoTest - null
+[DEBUG] 2021-03-22 16:55:59.803 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-03-22 16:55:59.866 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-03-22 16:56:30.066 [http-nio-8080-exec-4] LoginAction - the logged in user: catsAndDogs has a role of admin: true
+[INFO ] 2021-03-22 17:27:29.583 [main] GameDaoTest - null
+[DEBUG] 2021-03-22 17:27:29.847 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-03-22 17:27:30.180 [main] UserDaoTest - null
+[DEBUG] 2021-03-22 17:27:30.366 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-03-22 17:27:30.439 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-03-22 17:28:07.583 [http-nio-8080-exec-2] LoginAction - the logged in user: catsAndDogs has a role of admin: true
+[INFO ] 2021-03-22 17:42:28.283 [main] GameDaoTest - null
+[DEBUG] 2021-03-22 17:42:28.515 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-03-22 17:42:28.808 [main] UserDaoTest - null
+[DEBUG] 2021-03-22 17:42:28.897 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-03-22 17:42:28.953 [main] GenericDao - Searching for entity with userName = bobPlaysCards
