@@ -36,16 +36,9 @@ counting dealer hand, counting crib, shuffling
 - Scene 5 "Shuffle": Reset database with a new Deal at start of step 1
 
 ## Schedule
-- 2/9 - 2/14 Edit/finalize(?) site and game design documents; finish first 
-  draft of user table/DAO/Hibernate
-- 2/14 - 2/21 
-- 2/21 - 2/28 
-- 2/28 - 3/7
-- 3/7 - 3/14
-- 3/14 - 3/21
-- 3/21 - 3/28
-- 3/28 - 4/4
-- 4/4 - 4/11
-- 4/11 - 4/18
-- 4/18 - 4/25
-- 4/25 - 5/2 Prepare presentation
+- Week 9 - Start Scene 1, get deck of cards created and showing; work on team project
+- Week 10 - Finish Scene 1, start scene 2; work on team project
+- Week 11 - Finish Scene 2, start scene 3, explore javaFX integration
+- Week 12 - Finish Scene 3, start scene 4, develop User and Game data display
+- Week 13 - Finish Scene 4, start scene 5
+- Week 14 - Finish Scene 5, finalize UI
