@@ -37,5 +37,5 @@ counting dealer hand, counting crib, shuffling
 - Week 10 - Finish Scene 1, start scene 2; get score tallying; work on team project
 - Week 11 - Finish Scene 2, start scene 3, develop "game" screen visuals
 - Week 12 - Finish Scene 3, start scene 4, explore JavaScript interactivity for "game" screen when clicking on cards and submitting choices
-- Week 13 - Finish Scene 4, start scene 5, assure clean code
+- Week 13 - Finish Scene 4, start scene 5, assure clean code; develop narration and visual representation of game score
 - Week 14 - Finish Scene 5, finalize UI
