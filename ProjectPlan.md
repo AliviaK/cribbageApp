@@ -37,8 +37,8 @@ counting dealer hand, counting crib, shuffling
 
 ## Schedule
 - Week 9 - Start Scene 1, get deck of cards created and showing; work on team project
-- Week 10 - Finish Scene 1, start scene 2; work on team project
-- Week 11 - Finish Scene 2, start scene 3, explore javaFX integration
-- Week 12 - Finish Scene 3, start scene 4, develop User and Game data display
-- Week 13 - Finish Scene 4, start scene 5
+- Week 10 - Finish Scene 1, start scene 2; get score tallying; work on team project
+- Week 11 - Finish Scene 2, start scene 3, develop "game" screen visuals
+- Week 12 - Finish Scene 3, start scene 4, explore JavaScript interactivity for "game" screen when clicking on cards and submitting choices
+- Week 13 - Finish Scene 4, start scene 5, assure clean code
 - Week 14 - Finish Scene 5, finalize UI
