@@ -6,9 +6,6 @@ counting dealer hand, counting crib, shuffling
 - User -> ID, Username, Password, Wins, Losses (Record Calculated by 
   (wins + losses) / losses)
 - CompletedGame -> User_ID, DateTime, Score, Outcome
-- CurrentGame -> PlayerName, PlayerScore, CompScore, PlayerSixCardHand, 
-  CompSixCardHand, PlayerHand, CompHand, PlayerBackPeg, CompBackPeg, Crib, Cut
-  Deck?
   
 ## Game Development
 - 2 Player Cribbage Application Against Computer
