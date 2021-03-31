@@ -1236,3 +1236,4 @@ com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized f
 [INFO ] 2021-03-31 09:34:35.608 [main] UserDaoTest - null
 [DEBUG] 2021-03-31 09:34:35.882 [main] GenericDao - Searching for entity with userName = ird
 [DEBUG] 2021-03-31 09:34:36.026 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-03-31 09:35:02.304 [http-nio-8080-exec-2] LoginAction - the logged in user: catsAndDogs has a role of admin: true
