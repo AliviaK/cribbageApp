@@ -16,7 +16,7 @@ public class DeckOfCardsDAO {
         final Logger logger = LogManager.getLogger(PropertiesLoader.class);
         Client client = ClientBuilder.newClient();
         WebTarget target =
-                client.target("https://deckofcardsapi.com/api/deck/urwz20x4b8z7/draw/?count=2");
+                client.target("https://deckofcardsapi.com/api/deck/new/");
         String response = target.request(MediaType.APPLICATION_JSON).get(String.class);
         ObjectMapper mapper = new ObjectMapper();
         Deck deck = null;

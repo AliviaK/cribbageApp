@@ -70,3 +70,18 @@
 ## Week 8
     3/13
         Implemented DeckOfCardsAPI and it went very smoothly.
+
+## Week 9
+    3/22
+        Added authentication to the project, which was successful in IntelliJ but coudln't get
+        admin login to work on the deployed AWS app. Fell a bit behind in reflections and weekly work,
+        but catching up. Presented my JavaFX research project.
+    3/28
+        My group and I decided on a "What's on Tap?" app for Madison bars. Met twice and got our 
+        project plan in place. I will be creating the DAO next week.
+
+## Week 10
+    3/31
+        Got my AWS admin login working finally! Forgot to add the role table to my EC2 instance, and my     
+        context.xml containted the wrong login. Fell a bit behind in my weekly project plan so this week I 
+        am adding the beginnings and first scene of the game. 
