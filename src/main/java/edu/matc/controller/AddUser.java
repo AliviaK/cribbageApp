@@ -39,6 +39,8 @@ public class AddUser extends HttpServlet {
         GenericDao userDao = new GenericDao(User.class);
         String username = request.getParameter("username");
 
+
+        // TODO: fix to add user instead of display
         if (username != null) {
             request.setAttribute("users", userDao.getByPropertyLike("userName", username));
         } else {

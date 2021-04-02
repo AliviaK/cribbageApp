@@ -1,5 +1,8 @@
 package edu.matc.entity;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import edu.matc.deckOfCards.Deck;
+import edu.matc.persistence.DeckOfCardsDAO;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -30,6 +33,7 @@ public class Game {
 
     @Column(name = "time_played")
     private LocalDate timePlayed;
+
 
     /**
      * Instantiates a new Game.
@@ -147,4 +151,5 @@ public class Game {
                 ", timePlayed=" + timePlayed +
                 '}';
     }
+
 }

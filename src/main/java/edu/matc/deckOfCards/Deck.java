@@ -5,14 +5,8 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Deck {
 
-	@JsonProperty("cards")
-	private List<CardsItem> cards;
-
 	@JsonProperty("success")
 	private boolean success;
-
-	@JsonProperty("piles")
-	private Piles piles;
 
 	@JsonProperty("deck_id")
 	private String deckId;
@@ -20,13 +14,9 @@ public class Deck {
 	@JsonProperty("remaining")
 	private int remaining;
 
-	public void setCards(List<CardsItem> cards){
-		this.cards = cards;
-	}
+	@JsonProperty("shuffled")
+	private boolean shuffled;
 
-	public List<CardsItem> getCards(){
-		return cards;
-	}
 
 	public void setSuccess(boolean success){
 		this.success = success;
@@ -34,14 +24,6 @@ public class Deck {
 
 	public boolean isSuccess(){
 		return success;
-	}
-
-	public void setPiles(Piles piles){
-		this.piles = piles;
-	}
-
-	public Piles getPiles(){
-		return piles;
 	}
 
 	public void setDeckId(String deckId){
@@ -60,15 +42,22 @@ public class Deck {
 		return remaining;
 	}
 
+	public void setShuffled(boolean shuffled){
+		this.shuffled = shuffled;
+	}
+
+	public boolean getShuffled(){
+		return shuffled;
+	}
+
 	@Override
  	public String toString(){
 		return 
 			"Deck{" +
-			"cards = '" + cards + '\'' +
-			",piles = '" + piles + '\'' +
 			",success = '" + success + '\'' +
 			",deck_id = '" + deckId + '\'' + 
-			",remaining = '" + remaining + '\'' + 
+			",remaining = '" + remaining + '\'' +
+			",shuffled = '" + shuffled + '\'' +
 			"}";
 		}
 }

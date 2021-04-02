@@ -1,6 +1,8 @@
 package edu.matc.controller;
 
+import edu.matc.deckOfCards.Deck;
 import edu.matc.entity.User;
+import edu.matc.persistence.DeckOfCardsDAO;
 import edu.matc.persistence.GenericDao;
 import edu.matc.persistence.PropertiesLoader;
 
@@ -27,7 +29,6 @@ public class SearchUser extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
         GenericDao<User> dao = new GenericDao<>();
         String username = req.getParameter("username");
 
