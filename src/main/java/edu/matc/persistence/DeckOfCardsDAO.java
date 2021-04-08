@@ -70,8 +70,6 @@ public class DeckOfCardsDAO {
         }
         String ready = cardsParam.substring(0, cardsParam.length() - 1);
         String apiURI = "https://deckofcardsapi.com/api/deck/" + drawnCards.getDeckId() + "/pile/" + pileName + "/add/?cards=" + ready;
-        System.out.print(apiURI);
-
         Client client = ClientBuilder.newClient();
         WebTarget target =
                 client.target(apiURI);
@@ -83,29 +81,24 @@ public class DeckOfCardsDAO {
         } catch (JsonProcessingException e) {
             logger.error("Error processing request", e);
         }
-        System.out.print(pileCreation );
         return pileCreation ;
     }
-    /**
-    public Crib addToCrib(String deckId, List<CardsItem> cards) throws JsonProcessingException {
+
+    public PileCreation addToCrib(String deckId, String cards) throws JsonProcessingException {
         final Logger logger = LogManager.getLogger(PropertiesLoader.class);
-        String cardsParam = "";
-        for (CardsItem card : cards) {
-            cardsParam += card.getCode() + ",";
-        }
-        String ready = cardsParam.substring(0, cardsParam.length() - 1);
+        String apiURI = "https://deckofcardsapi.com/api/deck/" + deckId + "/pile/Crib/add/?cards=" + cards;
         Client client = ClientBuilder.newClient();
         WebTarget target =
-                client.target("https://deckofcardsapi.com/api/deck/" + deckId + "/draw/?count=" + cardsParam);
+                client.target(apiURI);
         String response = target.request(MediaType.APPLICATION_JSON).get(String.class);
         ObjectMapper mapper = new ObjectMapper();
-        Crib crib = new Crib();
+        PileCreation pileCreation = null;
         try {
-            crib = mapper.readValue(response, Crib.class);
+            pileCreation  = mapper.readValue(response, PileCreation.class);
         } catch (JsonProcessingException e) {
             logger.error("Error processing request", e);
         }
-        return crib;
-    } */
+        return pileCreation ;
+    }
 
 }

@@ -1,5 +1,7 @@
 package edu.matc.controller;
 
+import edu.matc.deckOfCards.DrawnCards;
+import edu.matc.deckOfCards.PileCreation;
 import edu.matc.persistence.DeckOfCardsDAO;
 import edu.matc.deckOfCards.Deck;
 import edu.matc.persistence.PropertiesLoader;
@@ -34,7 +36,8 @@ public class PlayGame extends HttpServlet {
         DeckOfCardsDAO ddao = new DeckOfCardsDAO();
 
         Deck deck = ddao.getNewDeck();
-        request.setAttribute("Deck", deck);
+        DrawnCards drawn = ddao.drawCard(deck.getDeckId(), 6);
+        request.setAttribute("Drawn", drawn);
 
         RequestDispatcher dispatcher = request.getRequestDispatcher("/gameScreen.jsp");
         dispatcher.forward(request, response);

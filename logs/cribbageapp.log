@@ -3236,3 +3236,182 @@ com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized f
 	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) [junit-rt.jar:?]
 	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220) [junit-rt.jar:?]
 	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53) [junit-rt.jar:?]
+[ERROR] 2021-04-08 00:16:27.914 [main] PropertiesLoader - Error processing request
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "CpuHan" (class edu.matc.deckOfCards.Piles), not marked as ignorable (3 known properties: "Crib", "CpuHand", "PlayerHand"])
+ at [Source: (String)"{"success": true, "deck_id": "o59021b2iypv", "remaining": 42, "piles": {"PlayerHand": {"remaining": 5}, "CpuHan": {"remaining": 5}}}"; line: 1, column: 116] (through reference chain: edu.matc.deckOfCards.PileCreation["piles"]->edu.matc.deckOfCards.Piles["CpuHan"])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61) ~[jackson-databind-2.10.0.jar:2.10.0]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:840) ~[jackson-databind-2.10.0.jar:2.10.0]
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:1179) ~[jackson-databind-2.10.0.jar:2.10.0]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1592) ~[jackson-databind-2.10.0.jar:2.10.0]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1570) ~[jackson-databind-2.10.0.jar:2.10.0]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:294) ~[jackson-databind-2.10.0.jar:2.10.0]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:151) ~[jackson-databind-2.10.0.jar:2.10.0]
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129) ~[jackson-databind-2.10.0.jar:2.10.0]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:288) ~[jackson-databind-2.10.0.jar:2.10.0]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:151) ~[jackson-databind-2.10.0.jar:2.10.0]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4202) ~[jackson-databind-2.10.0.jar:2.10.0]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3205) ~[jackson-databind-2.10.0.jar:2.10.0]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3173) ~[jackson-databind-2.10.0.jar:2.10.0]
+	at edu.matc.persistence.DeckOfCardsDAO.addToPile(DeckOfCardsDAO.java:82) [classes/:?]
+	at edu.matc.persistence.DeckOfCardsDAOTest.addToPlayerHandTest(DeckOfCardsDAOTest.java:46) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:389) [junit-platform-commons-1.0.0.jar:1.0.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:167) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:163) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:110) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:57) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:83) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$null$2(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) [?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) [?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) [?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) [?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) [?:?]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$null$2(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) [?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) [?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) [?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) [?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) [?:?]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:51) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:43) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170) [junit-platform-launcher-1.0.0.jar:1.0.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154) [junit-platform-launcher-1.0.0.jar:1.0.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90) [junit-platform-launcher-1.0.0.jar:1.0.0]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:71) [junit5-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53) [junit-rt.jar:?]
+[ERROR] 2021-04-08 00:16:44.399 [main] PropertiesLoader - Error processing request
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "PlayerHad" (class edu.matc.deckOfCards.Piles), not marked as ignorable (3 known properties: "Crib", "CpuHand", "PlayerHand"])
+ at [Source: (String)"{"success": true, "deck_id": "njet0fz01grs", "remaining": 47, "piles": {"PlayerHad": {"remaining": 5}}}"; line: 1, column: 87] (through reference chain: edu.matc.deckOfCards.PileCreation["piles"]->edu.matc.deckOfCards.Piles["PlayerHad"])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61) ~[jackson-databind-2.10.0.jar:2.10.0]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:840) ~[jackson-databind-2.10.0.jar:2.10.0]
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:1179) ~[jackson-databind-2.10.0.jar:2.10.0]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1592) ~[jackson-databind-2.10.0.jar:2.10.0]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1570) ~[jackson-databind-2.10.0.jar:2.10.0]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:294) ~[jackson-databind-2.10.0.jar:2.10.0]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:151) ~[jackson-databind-2.10.0.jar:2.10.0]
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129) ~[jackson-databind-2.10.0.jar:2.10.0]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:288) ~[jackson-databind-2.10.0.jar:2.10.0]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:151) ~[jackson-databind-2.10.0.jar:2.10.0]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4202) ~[jackson-databind-2.10.0.jar:2.10.0]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3205) ~[jackson-databind-2.10.0.jar:2.10.0]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3173) ~[jackson-databind-2.10.0.jar:2.10.0]
+	at edu.matc.persistence.DeckOfCardsDAO.addToPile(DeckOfCardsDAO.java:82) [classes/:?]
+	at edu.matc.persistence.DeckOfCardsDAOTest.addToPlayerHandTest(DeckOfCardsDAOTest.java:42) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:389) [junit-platform-commons-1.0.0.jar:1.0.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:167) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:163) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:110) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:57) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:83) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$null$2(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) [?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) [?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) [?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) [?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) [?:?]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$null$2(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) [?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) [?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) [?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) [?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) [?:?]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:51) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:43) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170) [junit-platform-launcher-1.0.0.jar:1.0.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154) [junit-platform-launcher-1.0.0.jar:1.0.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90) [junit-platform-launcher-1.0.0.jar:1.0.0]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:71) [junit5-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53) [junit-rt.jar:?]
+[INFO ] 2021-04-08 01:00:21.466 [main] GameDaoTest - null
+[DEBUG] 2021-04-08 01:00:21.682 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-08 01:00:21.970 [main] UserDaoTest - null
+[DEBUG] 2021-04-08 01:00:22.052 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-08 01:00:22.105 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-08 01:02:08.028 [main] GameDaoTest - null
+[DEBUG] 2021-04-08 01:02:08.231 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-08 01:02:08.555 [main] UserDaoTest - null
+[DEBUG] 2021-04-08 01:02:08.658 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-08 01:02:08.716 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-08 01:03:42.259 [main] GameDaoTest - null
+[DEBUG] 2021-04-08 01:03:42.468 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-08 01:03:42.775 [main] UserDaoTest - null
+[DEBUG] 2021-04-08 01:03:42.858 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-08 01:03:42.905 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-08 01:05:59.462 [main] GameDaoTest - null
+[DEBUG] 2021-04-08 01:05:59.672 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-08 01:05:59.984 [main] UserDaoTest - null
+[DEBUG] 2021-04-08 01:06:00.067 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-08 01:06:00.118 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-08 01:06:28.053 [http-nio-8080-exec-3] LoginAction - the logged in user: catsAndDogs has a role of admin: true
+[INFO ] 2021-04-08 01:12:08.161 [main] GameDaoTest - null
+[DEBUG] 2021-04-08 01:12:08.359 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-08 01:12:08.654 [main] UserDaoTest - null
+[DEBUG] 2021-04-08 01:12:08.731 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-08 01:12:08.777 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-08 01:13:08.067 [main] GameDaoTest - null
+[DEBUG] 2021-04-08 01:13:08.283 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-08 01:13:08.594 [main] UserDaoTest - null
+[DEBUG] 2021-04-08 01:13:08.680 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-08 01:13:08.730 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-08 01:19:17.855 [main] GameDaoTest - null
+[DEBUG] 2021-04-08 01:19:18.049 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-08 01:19:18.360 [main] UserDaoTest - null
+[DEBUG] 2021-04-08 01:19:18.441 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-08 01:19:18.488 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-08 01:21:00.520 [main] GameDaoTest - null
+[DEBUG] 2021-04-08 01:21:00.713 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-08 01:21:01.027 [main] UserDaoTest - null
+[DEBUG] 2021-04-08 01:21:01.114 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-08 01:21:01.165 [main] GenericDao - Searching for entity with userName = bobPlaysCards
