@@ -58,16 +58,4 @@ public class CardsItem{
 	public String getValue(){
 		return value;
 	}
-
-	@Override
- 	public String toString(){
-		return 
-			"CardsItem{" + 
-			"image = '" + image + '\'' + 
-			",images = '" + images + '\'' + 
-			",code = '" + code + '\'' + 
-			",suit = '" + suit + '\'' + 
-			",value = '" + value + '\'' + 
-			"}";
-		}
 }
