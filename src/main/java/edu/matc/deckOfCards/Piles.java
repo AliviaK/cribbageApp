@@ -4,22 +4,36 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Piles{
 
-	@JsonProperty("discard")
-	private Discard discard;
+	@JsonProperty("CpuHand")
+	private CpuHand cpuHand;
 
-	public void setDiscard(Discard discard){
-		this.discard = discard;
+	@JsonProperty("Crib")
+	private Crib crib;
+
+	@JsonProperty("PlayerHand")
+	private PlayerHand playerHand;
+
+	public PlayerHand getPlayerHand() {
+		return playerHand;
 	}
 
-	public Discard getDiscard(){
-		return discard;
+	public void setPlayerHand(PlayerHand playerHand) {
+		this.playerHand = playerHand;
 	}
 
-	@Override
- 	public String toString(){
-		return 
-			"Piles{" + 
-			"discard = '" + discard + '\'' + 
-			"}";
-		}
+	public void setCpuHand(CpuHand cpuHand){
+		this.cpuHand = cpuHand;
+	}
+
+	public CpuHand getCpuHand(){
+		return cpuHand;
+	}
+
+	public void setCrib(Crib crib){
+		this.crib = crib;
+	}
+
+	public Crib getCrib(){
+		return crib;
+	}
 }

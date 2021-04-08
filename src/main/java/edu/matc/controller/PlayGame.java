@@ -1,9 +1,5 @@
 package edu.matc.controller;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import edu.matc.entity.ActiveGame;
-import edu.matc.entity.User;
 import edu.matc.persistence.DeckOfCardsDAO;
 import edu.matc.deckOfCards.Deck;
 import edu.matc.persistence.PropertiesLoader;
@@ -16,10 +12,6 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.ws.rs.client.Client;
-import javax.ws.rs.client.ClientBuilder;
-import javax.ws.rs.client.WebTarget;
-import javax.ws.rs.core.MediaType;
 import java.io.IOException;
 
 @WebServlet(
@@ -41,7 +33,7 @@ public class PlayGame extends HttpServlet {
 
         DeckOfCardsDAO ddao = new DeckOfCardsDAO();
 
-        Deck deck = ddao.getDeck();
+        Deck deck = ddao.getNewDeck();
         request.setAttribute("Deck", deck);
 
         RequestDispatcher dispatcher = request.getRequestDispatcher("/gameScreen.jsp");

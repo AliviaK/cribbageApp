@@ -25,13 +25,4 @@ public class Images{
 	public String getPng(){
 		return png;
 	}
-
-	@Override
- 	public String toString(){
-		return 
-			"Images{" + 
-			"svg = '" + svg + '\'' + 
-			",png = '" + png + '\'' + 
-			"}";
-		}
 }

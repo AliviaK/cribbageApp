@@ -12,7 +12,7 @@ public class ActiveGame {
 
     public ActiveGame() throws JsonProcessingException {
         deckDao = new DeckOfCardsDAO();
-        deck = deckDao.getDeck();
+        deck = deckDao.getNewDeck();
     }
 
     public int getPlayerScore() {

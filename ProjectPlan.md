@@ -1,6 +1,6 @@
 # Cribbage Application Project Plan
-Segment the game into dealing, discarding, pegging, counting non-dealer hand,
-counting dealer hand, counting crib, shuffling
+Segment the game into dealing, discarding, pegging, counting non-dealer playerHand,
+counting dealer playerHand, counting crib, shuffling
 
 ## Database Development
 - User -> ID, Username, Password, Wins, Losses (Record Calculated by 

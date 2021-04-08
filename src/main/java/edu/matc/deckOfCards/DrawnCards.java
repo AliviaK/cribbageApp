@@ -3,7 +3,10 @@ package edu.matc.deckOfCards;
 import java.util.List;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class Deck {
+public class DrawnCards{
+
+	@JsonProperty("cards")
+	private List<CardsItem> cards;
 
 	@JsonProperty("success")
 	private boolean success;
@@ -14,9 +17,13 @@ public class Deck {
 	@JsonProperty("remaining")
 	private int remaining;
 
-	@JsonProperty("shuffled")
-	private boolean shuffled;
+	public void setCards(List<CardsItem> cards){
+		this.cards = cards;
+	}
 
+	public List<CardsItem> getCards(){
+		return cards;
+	}
 
 	public void setSuccess(boolean success){
 		this.success = success;
@@ -41,23 +48,4 @@ public class Deck {
 	public int getRemaining(){
 		return remaining;
 	}
-
-	public void setShuffled(boolean shuffled){
-		this.shuffled = shuffled;
-	}
-
-	public boolean isShuffled(){
-		return shuffled;
-	}
-
-	@Override
- 	public String toString(){
-		return 
-			"Deck{" +
-			",success = '" + success + '\'' +
-			",deck_id = '" + deckId + '\'' + 
-			",remaining = '" + remaining + '\'' +
-			",shuffled = '" + shuffled + '\'' +
-			"}";
-		}
 }

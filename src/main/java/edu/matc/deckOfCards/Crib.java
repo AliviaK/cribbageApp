@@ -1,12 +1,16 @@
 package edu.matc.deckOfCards;
 
-import java.util.List;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class Deck {
+import java.util.List;
+
+public class Crib{
 
 	@JsonProperty("success")
 	private boolean success;
+
+	@JsonProperty("piles")
+	private Piles piles;
 
 	@JsonProperty("deck_id")
 	private String deckId;
@@ -14,9 +18,8 @@ public class Deck {
 	@JsonProperty("remaining")
 	private int remaining;
 
-	@JsonProperty("shuffled")
-	private boolean shuffled;
-
+	@JsonProperty("cards")
+	private List<CardsItem> cards;
 
 	public void setSuccess(boolean success){
 		this.success = success;
@@ -24,6 +27,14 @@ public class Deck {
 
 	public boolean isSuccess(){
 		return success;
+	}
+
+	public void setPiles(Piles piles){
+		this.piles = piles;
+	}
+
+	public Piles getPiles(){
+		return piles;
 	}
 
 	public void setDeckId(String deckId){
@@ -42,22 +53,11 @@ public class Deck {
 		return remaining;
 	}
 
-	public void setShuffled(boolean shuffled){
-		this.shuffled = shuffled;
+	public void setCards(List<CardsItem> cards){
+		this.cards = cards;
 	}
 
-	public boolean isShuffled(){
-		return shuffled;
+	public List<CardsItem> getCards(){
+		return cards;
 	}
-
-	@Override
- 	public String toString(){
-		return 
-			"Deck{" +
-			",success = '" + success + '\'' +
-			",deck_id = '" + deckId + '\'' + 
-			",remaining = '" + remaining + '\'' +
-			",shuffled = '" + shuffled + '\'' +
-			"}";
-		}
 }
