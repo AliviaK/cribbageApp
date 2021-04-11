@@ -7,9 +7,6 @@ public class Piles{
 	@JsonProperty("CpuHand")
 	private CpuHand cpuHand;
 
-	@JsonProperty("Crib")
-	private Crib crib;
-
 	@JsonProperty("PlayerHand")
 	private PlayerHand playerHand;
 
@@ -29,11 +26,4 @@ public class Piles{
 		return cpuHand;
 	}
 
-	public void setCrib(Crib crib){
-		this.crib = crib;
-	}
-
-	public Crib getCrib(){
-		return crib;
-	}
 }

@@ -84,21 +84,5 @@ public class DeckOfCardsDAO {
         return pileCreation ;
     }
 
-    public PileCreation addToCrib(String deckId, String cards) throws JsonProcessingException {
-        final Logger logger = LogManager.getLogger(PropertiesLoader.class);
-        String apiURI = "https://deckofcardsapi.com/api/deck/" + deckId + "/pile/Crib/add/?cards=" + cards;
-        Client client = ClientBuilder.newClient();
-        WebTarget target =
-                client.target(apiURI);
-        String response = target.request(MediaType.APPLICATION_JSON).get(String.class);
-        ObjectMapper mapper = new ObjectMapper();
-        PileCreation pileCreation = null;
-        try {
-            pileCreation  = mapper.readValue(response, PileCreation.class);
-        } catch (JsonProcessingException e) {
-            logger.error("Error processing request", e);
-        }
-        return pileCreation ;
-    }
 
 }

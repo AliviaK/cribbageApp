@@ -84,4 +84,18 @@
     3/31
         Got my AWS admin login working finally! Forgot to add the role table to my EC2 instance, and my     
         context.xml containted the wrong login. Fell a bit behind in my weekly project plan so this week I 
-        am adding the beginnings and first scene of the game. 
+        am adding the beginnings and first scene of the game. Also created the DAO for team project.
+## Week 11
+    4/5
+        Passed new tests and made new objects for DeckOfCardsDAO to retrieve. Worked on finishing DAO tests
+        for team project.
+    4/6
+        Created, debugged, and passed more tests for DeckOfCardsDAO. Got stuck trying to create more than one
+        pile of cards as the object was mapped as a name. Deciding whether to create many objects for each pile
+        or create my own objects for playerHand, CpuHand, Crib, and Cut.
+    4/7
+        Passed new tests for Pile creation with the API. More issues created. Will be creating my own solution 
+        with my own objects.
+    4/11
+        Achieved 95% test coverage for team project tests and created index.jsp for our API.
+        

@@ -48,14 +48,4 @@ class DeckOfCardsDAOTest {
         pile = dao.addToPile("CpuHand", drawn2);
         assertEquals(42, pile.getRemaining());
     }
-
-    @Test
-    void addToCribTest() throws JsonProcessingException {
-        DrawnCards drawn = dao.drawCard(sampleDeckId, 6);
-        PileCreation pile = dao.addToPile("PlayerHand", drawn);
-        PlayerHand ph = pile.getPiles().getPlayerHand();
-
-        pile = dao.addToCrib(sampleDeckId, "AS,1S");
-        /** Card must be drawn to be added to pile. Populate PlayerHand/CpuHand/Crib by calling API? */
-    }
 }
