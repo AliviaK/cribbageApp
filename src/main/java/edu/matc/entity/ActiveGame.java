@@ -12,8 +12,6 @@ import java.util.List;
 import java.util.Map;
 
 public class ActiveGame {
-    private int playerScore;
-    private int cpuScore;
     private Deck deck;
     private DeckOfCardsDAO deckDao;
     private Player player;
@@ -26,22 +24,6 @@ public class ActiveGame {
     public ActiveGame() { }
 
     // Getters and setters
-
-    public int getPlayerScore() {
-        return playerScore;
-    }
-
-    public void setPlayerScore(int playerScore) {
-        this.playerScore = playerScore;
-    }
-
-    public int getCpuScore() {
-        return cpuScore;
-    }
-
-    public void setCpuScore(int cpuScore) {
-        this.cpuScore = cpuScore;
-    }
 
     public Deck getDeck() {
         return deck;

@@ -1,7 +1,6 @@
 package edu.matc.controller;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import edu.matc.deckOfCards.CardsItem;
 import edu.matc.deckOfCards.DrawnCards;
 import edu.matc.entity.ActiveGame;
 import edu.matc.entity.Player;
@@ -20,13 +19,13 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.Console;
 import java.io.IOException;
-import java.util.Iterator;
 
 @WebServlet(
-        urlPatterns = {"/processCrib"}
+        urlPatterns = {"/addAllCards"}
 )
-public class ProcessCrib extends HttpServlet {
+public class AddAllCards extends HttpServlet {
     final Logger logger = LogManager.getLogger(PropertiesLoader.class);
+
 
     /**
      *  Handles HTTP requests.
@@ -40,14 +39,6 @@ public class ProcessCrib extends HttpServlet {
             throws ServletException, IOException {
         ServletContext context = getServletConfig().getServletContext();
         ActiveGame currentGame = (ActiveGame) context.getAttribute("currentGame");
-
-        String[] values = request.getParameterValues("cardsForCrib[]");
-        for (int i = 0; i < values.length; i++) {
-            String valueOfCard = values[i];
-            CardsItem card = currentGame.getPlayer().discardFromHand(valueOfCard);
-            currentGame.addToCrib(card);
-            logger.info(currentGame.getCrib());
-        }
 
         request.setAttribute("playerHands", currentGame.getPlayer());
 

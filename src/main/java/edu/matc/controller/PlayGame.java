@@ -52,10 +52,7 @@ public class PlayGame extends HttpServlet {
             startNewGame();
         }
 
-
-
         request.setAttribute("Player", currentGame.getPlayer());
-        request.setAttribute("Drawn", currentGame.getDrawn());
 
         RequestDispatcher dispatcher = request.getRequestDispatcher("/gameScreen.jsp");
         dispatcher.forward(request, response);

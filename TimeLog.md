@@ -65,3 +65,13 @@ This file keeps track of weekly time spent on project files.
     4/11
         2:00 - 3:45
         5:30 - 6:30
+## Week 12
+    4/13
+        3:00 - 4:30
+    4/15
+        5:00 - 7:00
+    4/16
+        12:30 - 3:00
+        7:00 - 10:00
+    4/17
+        3:00 - 4:30

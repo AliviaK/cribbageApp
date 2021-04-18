@@ -13,9 +13,12 @@ public class Player {
     private final Logger logger = LogManager.getLogger(this.getClass());
 
     private Map<String, CardsItem> hand;
+    private Map<String, CardsItem> playedCards;
+    private int score;
 
     public Player() {
         hand = new HashMap<String, CardsItem>();
+        score = 0;
     }
 
     public Map<String, CardsItem> getHand() {
@@ -26,8 +29,28 @@ public class Player {
         this.hand = hand;
     }
 
+    public Map<String, CardsItem> getPlayedCards() {
+        return playedCards;
+    }
+
+    public void setPlayedCards(Map<String, CardsItem> playedCards) {
+        this.playedCards = playedCards;
+    }
+
+    public int getScore() {
+        return score;
+    }
+
+    public void setScore(int score) {
+        this.score = score;
+    }
+
     public void addToHand(CardsItem card) {
         hand.put(card.getCode(), card);
+    }
+
+     public void playCard(CardsItem card) {
+        playedCards.put(card.getCode(), card);
     }
 
     public CardsItem discardFromHand(String cardCode) {

@@ -11,12 +11,12 @@
             <c:forEach var="card" items="${Player.hand}" varStatus="loop">
                 <input type="checkbox" id="${loop.index}" name="cardsForCrib[]" value="${card.key}">
                 <label for="${loop.index}" onclick="highlightSelection(this)">
-                    <img class="not-chosen" src="${card.value.image}">
+                    <img class="not-chosen" src="${card.value.image}" alt="Card with value ${card.key}">
                 </label>
             </c:forEach>
 
         </div>
-        <input type="submit" value="submit">Send these two cards to crib</input>
+        <input type="submit" value="submit">Send these two cards to crib
     </form>
 </div>
 </body>
