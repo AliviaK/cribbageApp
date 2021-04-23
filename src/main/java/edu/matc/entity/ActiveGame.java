@@ -6,9 +6,7 @@ import edu.matc.deckOfCards.Deck;
 import edu.matc.deckOfCards.DrawnCards;
 import edu.matc.persistence.DeckOfCardsDAO;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class ActiveGame {
@@ -19,7 +17,9 @@ public class ActiveGame {
     private CardsItem cut;
     private Map<String, CardsItem> crib;
     private boolean inProgress;
-    private DrawnCards drawn;
+    private int runningCount;
+    private boolean playerDeal;
+    private int round;
 
     public ActiveGame() { }
 
@@ -57,13 +57,17 @@ public class ActiveGame {
         this.inProgress = inProgress;
     }
 
-    public DrawnCards getDrawn() {
-        return drawn;
-    }
+    public int getRunningCount() { return runningCount; }
 
-    public void setDrawn(DrawnCards drawn) {
-        this.drawn = drawn;
-    }
+    public void setRunningCount(int runningCount) { this.runningCount = runningCount; }
+
+    public boolean isPlayerDeal() { return playerDeal; }
+
+    public void setPlayerDeal(boolean playerDeal) { this.playerDeal = playerDeal; }
+
+    public int getRound() { return round; }
+
+    public void setRound(int round) { this.round = round; }
 
     // Game logic
     public void startNewGame() throws JsonProcessingException {
@@ -73,14 +77,16 @@ public class ActiveGame {
         cpu = new Player();
         crib = new HashMap<String, CardsItem>();
         inProgress = true;
+        playerDeal = true;
+        round = 1;
     }
 
     public void shuffleDeck() throws JsonProcessingException {
         deckDao.shuffleDeck(deck.getDeckId());
     }
 
-    public DrawnCards dealHands() throws JsonProcessingException {
-        drawn = deckDao.drawCard(deck.getDeckId(), 13);
+    public void dealHands() throws JsonProcessingException {
+        DrawnCards drawn = deckDao.drawCard(deck.getDeckId(), 13);
 
         for (int i = 0; i < drawn.getCards().size(); i++) {
             switch (i) {
@@ -98,11 +104,8 @@ public class ActiveGame {
                     break;
             }
         }
-
-        return drawn;
     }
 
-    /** TODO: Figure out how to add discarded card to crib */
     public void addToCrib(CardsItem card) {
         crib.put(card.getCode(), card);
     }

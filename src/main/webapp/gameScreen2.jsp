@@ -7,6 +7,19 @@
     <h2>Select Card to Play: </h2>
 
     <div>
+        <h3>CPU:</h3>
+        <jsp:useBean id="cpu" scope="request" class="edu.matc.entity.Player"/>
+        <c:forEach var="card" items="${cpu.hand}" varStatus="loop">
+            <img class="not-chosen" src="${card.value.image}" alt="Card with value of ${card.key}">
+        </c:forEach>
+    </div>
+    <div>
+        <c:forEach var="card" items="${cpu.playedCards}" varStatus="loop">
+            <img class="not-chosen" src="${card.value.image}" alt="Card with value of ${card.key}">
+        </c:forEach>
+    </div>
+
+    <div>
         <h3>Played Cards:</h3>
         <jsp:useBean id="playerHands" scope="request" class="edu.matc.entity.Player"/>
         <c:forEach var="card" items="${playerHands.playedCards}" varStatus="loop">
@@ -16,7 +29,6 @@
 
     <form action="addAllCards" method="get">
         <div>
-            <jsp:useBean id="playerHands" scope="request" class="edu.matc.entity.Player"/>
             <c:forEach var="card" items="${playerHands.hand}" varStatus="loop">
                 <input type="radio" id="${loop.index}" name="cardToPlay" value="${card.key}">
                 <label for="${loop.index}">

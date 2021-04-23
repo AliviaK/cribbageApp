@@ -1,6 +1,7 @@
 package edu.matc.controller;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
+import edu.matc.deckOfCards.CardsItem;
 import edu.matc.deckOfCards.DrawnCards;
 import edu.matc.entity.ActiveGame;
 import edu.matc.entity.Player;
@@ -40,7 +41,16 @@ public class AddAllCards extends HttpServlet {
         ServletContext context = getServletConfig().getServletContext();
         ActiveGame currentGame = (ActiveGame) context.getAttribute("currentGame");
 
+        String cardToPlay = request.getParameter("cardToPlay");
+        CardsItem card = currentGame.getPlayer().discardFromHand(cardToPlay);
+        currentGame.getPlayer().playCard(card);
+
+        // How to play card for cpu
+        CardsItem cpuCardToPlay = currentGame.getCpu().discardFromHand(currentGame.getCpu().getLowestCard());
+        currentGame.getCpu().playCard(cpuCardToPlay);
+
         request.setAttribute("playerHands", currentGame.getPlayer());
+        request.setAttribute("cpu", currentGame.getCpu());
 
         RequestDispatcher dispatcher = request.getRequestDispatcher("/gameScreen2.jsp");
         dispatcher.forward(request, response);

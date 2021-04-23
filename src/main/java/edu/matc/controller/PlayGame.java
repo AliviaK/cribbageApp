@@ -27,12 +27,11 @@ public class PlayGame extends HttpServlet {
     final Logger logger = LogManager.getLogger(PropertiesLoader.class);
 
     private ActiveGame currentGame;
-    private DrawnCards drawn;
 
     public void startNewGame() throws JsonProcessingException {
         currentGame = new ActiveGame();
         currentGame.startNewGame();
-        drawn = currentGame.dealHands();
+        currentGame.dealHands();
         ServletContext context = getServletConfig().getServletContext();
         context.setAttribute("currentGame", currentGame);
     }

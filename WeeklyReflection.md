@@ -112,4 +112,11 @@
     4/17
         Began creating the JSP for scene 3. Working on the functionality for a player to keep selecting only unplayed
         cards in their hand.       
-        
+## Week 13
+    4/21
+        Got player to play all cards in hand, and ran into issue with cpu playing cards, as I needed some method of
+        choosing what card the computer will play and designing the method to do so.
+    4/22
+        Designed method to play last card in cpu hand, so without doing score calculation/going above 31 validation I
+        have this scene completed. Will begin working on validation and scoring next, as that ties into single hand
+        scoring for the next scene.

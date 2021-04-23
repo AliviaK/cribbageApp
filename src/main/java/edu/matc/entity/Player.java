@@ -4,10 +4,7 @@ import edu.matc.deckOfCards.CardsItem;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Player {
     private final Logger logger = LogManager.getLogger(this.getClass());
@@ -18,6 +15,7 @@ public class Player {
 
     public Player() {
         hand = new HashMap<String, CardsItem>();
+        playedCards = new HashMap<String, CardsItem>();
         score = 0;
     }
 
@@ -49,12 +47,23 @@ public class Player {
         hand.put(card.getCode(), card);
     }
 
-     public void playCard(CardsItem card) {
+    public void playCard(CardsItem card) {
         playedCards.put(card.getCode(), card);
     }
 
     public CardsItem discardFromHand(String cardCode) {
         CardsItem card = hand.remove(cardCode);
         return card;
+    }
+
+
+    // TODO Make method to return lowest value card in hand
+    public String getLowestCard() {
+        String lowestValue = "";
+        for (String key : hand.keySet()) {
+            lowestValue = key;
+        }
+        // Loop thru cards, replace lowest value card if lower than current. Return value
+        return lowestValue;
     }
 }

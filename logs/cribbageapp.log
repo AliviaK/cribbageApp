@@ -3746,3 +3746,55 @@ com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized f
 [DEBUG] 2021-04-16 16:04:08.038 [main] GenericDao - Searching for entity with userName = bobPlaysCards
 [INFO ] 2021-04-16 16:04:34.109 [http-nio-8080-exec-1] PropertiesLoader - {2D=edu.matc.deckOfCards.CardsItem@69092a41, 8C=edu.matc.deckOfCards.CardsItem@57953e33, 5C=edu.matc.deckOfCards.CardsItem@528982cb}
 [INFO ] 2021-04-16 16:04:34.115 [http-nio-8080-exec-1] PropertiesLoader - {2D=edu.matc.deckOfCards.CardsItem@69092a41, 8C=edu.matc.deckOfCards.CardsItem@57953e33, 6S=edu.matc.deckOfCards.CardsItem@4bf5fc55, 5C=edu.matc.deckOfCards.CardsItem@528982cb}
+[INFO ] 2021-04-18 23:35:00.311 [main] GameDaoTest - null
+[DEBUG] 2021-04-18 23:35:00.617 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-18 23:35:00.942 [main] UserDaoTest - null
+[DEBUG] 2021-04-18 23:35:01.130 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-18 23:35:01.184 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-18 23:35:33.776 [http-nio-8080-exec-5] PropertiesLoader - {3S=edu.matc.deckOfCards.CardsItem@a793cdc, 2H=edu.matc.deckOfCards.CardsItem@7e700e61, QH=edu.matc.deckOfCards.CardsItem@24984ec3}
+[INFO ] 2021-04-18 23:35:33.783 [http-nio-8080-exec-5] PropertiesLoader - {3S=edu.matc.deckOfCards.CardsItem@a793cdc, 2H=edu.matc.deckOfCards.CardsItem@7e700e61, QH=edu.matc.deckOfCards.CardsItem@24984ec3, 8C=edu.matc.deckOfCards.CardsItem@2897cc27}
+[INFO ] 2021-04-18 23:37:13.573 [main] GameDaoTest - null
+[DEBUG] 2021-04-18 23:37:13.780 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-18 23:37:14.105 [main] UserDaoTest - null
+[DEBUG] 2021-04-18 23:37:14.197 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-18 23:37:14.251 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-18 23:37:47.352 [http-nio-8080-exec-1] PropertiesLoader - {4D=edu.matc.deckOfCards.CardsItem@281760b0, KS=edu.matc.deckOfCards.CardsItem@46ab0e34, 6S=edu.matc.deckOfCards.CardsItem@31b6ae71}
+[INFO ] 2021-04-18 23:37:47.359 [http-nio-8080-exec-1] PropertiesLoader - {4D=edu.matc.deckOfCards.CardsItem@281760b0, KS=edu.matc.deckOfCards.CardsItem@46ab0e34, 7C=edu.matc.deckOfCards.CardsItem@27f2cfe, 6S=edu.matc.deckOfCards.CardsItem@31b6ae71}
+[INFO ] 2021-04-21 14:59:54.349 [main] GameDaoTest - null
+[DEBUG] 2021-04-21 14:59:54.605 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-21 14:59:54.928 [main] UserDaoTest - null
+[DEBUG] 2021-04-21 14:59:55.028 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-21 14:59:55.079 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-21 15:00:22.730 [http-nio-8080-exec-5] PropertiesLoader - {0C=edu.matc.deckOfCards.CardsItem@337e7fb0, 0S=edu.matc.deckOfCards.CardsItem@28fae0e1, KD=edu.matc.deckOfCards.CardsItem@3a8dbb78}
+[INFO ] 2021-04-21 15:00:22.737 [http-nio-8080-exec-5] PropertiesLoader - {0C=edu.matc.deckOfCards.CardsItem@337e7fb0, 0S=edu.matc.deckOfCards.CardsItem@28fae0e1, 0H=edu.matc.deckOfCards.CardsItem@36ab072c, KD=edu.matc.deckOfCards.CardsItem@3a8dbb78}
+[INFO ] 2021-04-21 16:16:10.256 [main] GameDaoTest - null
+[DEBUG] 2021-04-21 16:16:10.495 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-21 16:16:10.815 [main] UserDaoTest - null
+[DEBUG] 2021-04-21 16:16:10.905 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-21 16:16:10.952 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-21 16:16:35.458 [main] GameDaoTest - null
+[DEBUG] 2021-04-21 16:16:35.673 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-21 16:16:35.951 [main] UserDaoTest - null
+[DEBUG] 2021-04-21 16:16:36.030 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-21 16:16:36.078 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-21 16:17:05.073 [http-nio-8080-exec-2] PropertiesLoader - {3C=edu.matc.deckOfCards.CardsItem@36e8066, 8H=edu.matc.deckOfCards.CardsItem@4bf2edf1, 4H=edu.matc.deckOfCards.CardsItem@48e80de5}
+[INFO ] 2021-04-21 16:17:05.080 [http-nio-8080-exec-2] PropertiesLoader - {3C=edu.matc.deckOfCards.CardsItem@36e8066, 8H=edu.matc.deckOfCards.CardsItem@4bf2edf1, 4H=edu.matc.deckOfCards.CardsItem@48e80de5, 7D=edu.matc.deckOfCards.CardsItem@582531c6}
+[INFO ] 2021-04-21 16:19:47.041 [main] GameDaoTest - null
+[DEBUG] 2021-04-21 16:19:47.255 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-21 16:19:47.542 [main] UserDaoTest - null
+[DEBUG] 2021-04-21 16:19:47.632 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-21 16:19:47.682 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-21 16:20:14.822 [http-nio-8080-exec-10] PropertiesLoader - {2D=edu.matc.deckOfCards.CardsItem@e9216cc, AD=edu.matc.deckOfCards.CardsItem@28af2d19, 3H=edu.matc.deckOfCards.CardsItem@4adf5917}
+[INFO ] 2021-04-21 16:20:14.829 [http-nio-8080-exec-10] PropertiesLoader - {2D=edu.matc.deckOfCards.CardsItem@e9216cc, AD=edu.matc.deckOfCards.CardsItem@28af2d19, 3H=edu.matc.deckOfCards.CardsItem@4adf5917, AH=edu.matc.deckOfCards.CardsItem@3aa8848}
+[INFO ] 2021-04-23 00:44:33.074 [main] GameDaoTest - null
+[DEBUG] 2021-04-23 00:44:33.328 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-23 00:44:33.706 [main] UserDaoTest - null
+[DEBUG] 2021-04-23 00:44:33.862 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-23 00:44:33.935 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-23 00:46:52.959 [main] GameDaoTest - null
+[DEBUG] 2021-04-23 00:46:53.181 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-23 00:46:53.455 [main] UserDaoTest - null
+[DEBUG] 2021-04-23 00:46:53.537 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-23 00:46:53.584 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-23 00:47:30.576 [http-nio-8080-exec-1] PropertiesLoader - {3C=edu.matc.deckOfCards.CardsItem@29a18b85, 8C=edu.matc.deckOfCards.CardsItem@1e73f47b, 7S=edu.matc.deckOfCards.CardsItem@6fc92002}
+[INFO ] 2021-04-23 00:47:30.582 [http-nio-8080-exec-1] PropertiesLoader - {3C=edu.matc.deckOfCards.CardsItem@29a18b85, 8C=edu.matc.deckOfCards.CardsItem@1e73f47b, 7S=edu.matc.deckOfCards.CardsItem@6fc92002, 6C=edu.matc.deckOfCards.CardsItem@5c2f47bd}
