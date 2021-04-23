@@ -3415,3 +3415,386 @@ com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized f
 [INFO ] 2021-04-08 01:21:01.027 [main] UserDaoTest - null
 [DEBUG] 2021-04-08 01:21:01.114 [main] GenericDao - Searching for entity with userName = ird
 [DEBUG] 2021-04-08 01:21:01.165 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-11 23:51:27.530 [main] GameDaoTest - null
+[DEBUG] 2021-04-11 23:51:27.780 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-11 23:51:28.110 [main] UserDaoTest - null
+[DEBUG] 2021-04-11 23:51:28.205 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-11 23:51:28.262 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-11 23:55:34.641 [main] GameDaoTest - null
+[DEBUG] 2021-04-11 23:55:34.860 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-11 23:55:35.169 [main] UserDaoTest - null
+[DEBUG] 2021-04-11 23:55:35.258 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-11 23:55:35.310 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-12 00:01:15.085 [main] GameDaoTest - null
+[DEBUG] 2021-04-12 00:01:15.311 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-12 00:01:15.609 [main] UserDaoTest - null
+[DEBUG] 2021-04-12 00:01:15.703 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-12 00:01:15.751 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-14 11:30:53.928 [main] GameDaoTest - null
+[DEBUG] 2021-04-14 11:30:54.199 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-14 11:30:54.578 [main] UserDaoTest - null
+[DEBUG] 2021-04-14 11:30:54.673 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-14 11:30:54.729 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-14 11:34:58.444 [main] GameDaoTest - null
+[DEBUG] 2021-04-14 11:34:58.677 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-14 11:34:58.969 [main] UserDaoTest - null
+[DEBUG] 2021-04-14 11:34:59.047 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-14 11:34:59.193 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-14 12:01:57.382 [main] GameDaoTest - null
+[DEBUG] 2021-04-14 12:01:57.615 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-14 12:01:57.951 [main] UserDaoTest - null
+[DEBUG] 2021-04-14 12:01:58.170 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-14 12:01:58.218 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-14 22:54:25.847 [main] GameDaoTest - null
+[DEBUG] 2021-04-14 22:54:26.101 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-14 22:54:26.441 [main] UserDaoTest - null
+[DEBUG] 2021-04-14 22:54:26.536 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-14 22:54:26.587 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 00:29:46.351 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 00:29:46.582 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 00:29:46.881 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 00:29:46.968 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 00:29:47.020 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 00:32:32.357 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 00:32:32.594 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 00:32:32.872 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 00:32:33.097 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 00:32:33.143 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 00:37:11.179 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 00:37:11.421 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 00:37:11.717 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 00:37:11.821 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 00:37:11.978 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 00:39:05.126 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 00:39:05.346 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 00:39:05.650 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 00:39:05.741 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 00:39:05.899 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 00:41:35.976 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 00:41:36.223 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 00:41:36.560 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 00:41:36.653 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 00:41:36.699 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 00:42:01.424 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 00:42:01.638 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 00:42:01.953 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 00:42:02.050 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 00:42:02.212 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 00:43:17.226 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 00:43:17.447 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 00:43:17.799 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 00:43:17.906 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 00:43:17.956 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 00:47:10.325 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 00:47:10.547 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 00:47:10.859 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 00:47:10.943 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 00:47:10.988 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 00:49:26.046 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 00:49:26.269 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 00:49:26.563 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 00:49:26.652 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 00:49:26.705 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 00:52:42.222 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 00:52:42.463 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 00:52:42.809 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 00:52:42.898 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 00:52:42.947 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 00:55:09.374 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 00:55:09.590 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 00:55:09.908 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 00:55:09.988 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 00:55:10.039 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 00:57:03.265 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 00:57:03.487 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 00:57:03.795 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 00:57:03.879 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 00:57:03.929 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 00:58:17.952 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 00:58:18.185 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 00:58:18.509 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 00:58:18.594 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 00:58:18.647 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 01:25:22.445 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 01:25:22.668 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 01:25:22.996 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 01:25:23.108 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 01:25:23.165 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 01:32:13.608 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 01:32:13.815 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 01:32:14.155 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 01:32:14.238 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 01:32:14.290 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 13:44:06.599 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 13:44:06.843 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 13:44:07.184 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 13:44:07.275 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 13:44:07.336 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 13:45:50.572 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 13:45:50.770 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 13:45:51.078 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 13:45:51.172 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 13:45:51.219 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 14:05:55.539 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 14:05:55.791 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 14:05:56.112 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 14:05:56.196 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 14:05:56.242 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 14:14:40.666 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 14:14:40.973 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 14:14:41.291 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 14:14:41.518 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 14:14:41.581 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 14:17:13.428 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 14:17:13.637 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 14:17:13.947 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 14:17:14.039 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 14:17:14.087 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 14:23:22.439 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 14:23:22.680 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 14:23:23.135 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 14:23:23.224 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 14:23:23.284 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 14:26:16.939 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 14:26:17.152 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 14:26:17.492 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 14:26:17.607 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 14:26:17.663 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 14:27:28.753 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 14:27:28.973 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 14:27:29.270 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 14:27:29.358 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 14:27:29.403 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 14:30:54.988 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 14:30:55.217 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 14:30:55.512 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 14:30:55.600 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 14:30:55.649 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 14:33:16.718 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 14:33:16.953 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 14:33:17.252 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 14:33:17.332 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 14:33:17.432 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 14:33:37.110 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 14:33:37.330 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 14:33:37.622 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 14:33:37.714 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 14:33:37.772 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 14:34:16.950 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 14:34:17.182 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 14:34:17.494 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 14:34:17.570 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 14:34:17.613 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 14:53:01.482 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 14:53:01.717 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 14:53:02.040 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 14:53:02.142 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 14:53:02.198 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 16:56:32.820 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 16:56:33.058 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 16:56:33.373 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 16:56:33.459 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 16:56:33.505 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 17:00:37.352 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 17:00:37.574 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 17:00:37.854 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 17:00:38.036 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 17:00:38.108 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 17:05:11.669 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 17:05:11.892 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 17:05:12.186 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 17:05:12.276 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 17:05:12.323 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 17:08:34.262 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 17:08:34.496 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 17:08:34.778 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 17:08:34.864 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 17:08:34.914 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 17:14:30.481 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 17:14:30.708 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 17:14:31.030 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 17:14:31.109 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 17:14:31.157 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 17:17:10.680 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 17:17:10.939 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 17:17:11.241 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 17:17:11.334 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 17:17:11.381 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 17:35:52.512 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 17:35:52.727 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 17:35:53.014 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 17:35:53.130 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 17:35:53.184 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 17:52:05.078 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 17:52:05.287 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 17:52:05.546 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 17:52:05.633 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 17:52:05.681 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 18:24:24.881 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 18:24:25.104 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 18:24:25.425 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 18:24:25.515 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 18:24:25.565 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 18:29:23.102 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 18:29:23.345 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 18:29:23.657 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 18:29:23.741 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 18:29:23.810 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 18:33:21.228 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 18:33:21.450 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 18:33:21.762 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 18:33:21.847 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 18:33:21.892 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 20:08:06.752 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 20:08:06.971 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 20:08:07.289 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 20:08:07.368 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 20:08:07.414 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 20:24:46.941 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 20:24:47.148 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 20:24:47.423 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 20:24:47.502 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 20:24:47.558 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-15 20:27:16.532 [main] GameDaoTest - null
+[DEBUG] 2021-04-15 20:27:16.746 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-15 20:27:17.084 [main] UserDaoTest - null
+[DEBUG] 2021-04-15 20:27:17.169 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-15 20:27:17.214 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-16 13:24:36.535 [main] GameDaoTest - null
+[DEBUG] 2021-04-16 13:24:36.800 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-16 13:24:37.137 [main] UserDaoTest - null
+[DEBUG] 2021-04-16 13:24:37.230 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-16 13:24:37.279 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-16 13:38:54.247 [main] GameDaoTest - null
+[DEBUG] 2021-04-16 13:38:54.457 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-16 13:38:54.793 [main] UserDaoTest - null
+[DEBUG] 2021-04-16 13:38:54.897 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-16 13:38:54.943 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-16 13:41:15.950 [main] GameDaoTest - null
+[DEBUG] 2021-04-16 13:41:16.164 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-16 13:41:16.485 [main] UserDaoTest - null
+[DEBUG] 2021-04-16 13:41:16.633 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-16 13:41:16.760 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-16 15:06:07.103 [main] GameDaoTest - null
+[DEBUG] 2021-04-16 15:06:07.325 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-16 15:06:07.605 [main] UserDaoTest - null
+[DEBUG] 2021-04-16 15:06:07.690 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-16 15:06:07.742 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-16 15:20:59.613 [main] GameDaoTest - null
+[DEBUG] 2021-04-16 15:20:59.830 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-16 15:21:00.142 [main] UserDaoTest - null
+[DEBUG] 2021-04-16 15:21:00.236 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-16 15:21:00.283 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-16 15:24:54.030 [main] GameDaoTest - null
+[DEBUG] 2021-04-16 15:24:54.303 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-16 15:24:54.716 [main] UserDaoTest - null
+[DEBUG] 2021-04-16 15:24:54.824 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-16 15:24:54.897 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-16 15:26:59.261 [main] GameDaoTest - null
+[DEBUG] 2021-04-16 15:26:59.490 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-16 15:26:59.783 [main] UserDaoTest - null
+[DEBUG] 2021-04-16 15:26:59.873 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-16 15:26:59.930 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-16 15:28:13.104 [main] GameDaoTest - null
+[DEBUG] 2021-04-16 15:28:13.323 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-16 15:28:13.616 [main] UserDaoTest - null
+[DEBUG] 2021-04-16 15:28:13.698 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-16 15:28:13.743 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-16 15:33:23.571 [main] GameDaoTest - null
+[DEBUG] 2021-04-16 15:33:23.804 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-16 15:33:24.105 [main] UserDaoTest - null
+[DEBUG] 2021-04-16 15:33:24.198 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-16 15:33:24.352 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-16 15:37:47.030 [main] GameDaoTest - null
+[DEBUG] 2021-04-16 15:37:47.233 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-16 15:37:47.544 [main] UserDaoTest - null
+[DEBUG] 2021-04-16 15:37:47.637 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-16 15:37:47.691 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-16 15:48:11.157 [main] GameDaoTest - null
+[DEBUG] 2021-04-16 15:48:11.488 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-16 15:48:11.808 [main] UserDaoTest - null
+[DEBUG] 2021-04-16 15:48:11.893 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-16 15:48:11.945 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-16 15:49:53.693 [main] GameDaoTest - null
+[DEBUG] 2021-04-16 15:49:53.916 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-16 15:49:54.201 [main] UserDaoTest - null
+[DEBUG] 2021-04-16 15:49:54.283 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-16 15:49:54.339 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-16 15:55:01.519 [main] GameDaoTest - null
+[DEBUG] 2021-04-16 15:55:01.737 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-16 15:55:02.052 [main] UserDaoTest - null
+[DEBUG] 2021-04-16 15:55:02.137 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-16 15:55:02.182 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-16 15:55:30.213 [http-nio-8080-exec-1] PropertiesLoader - {AC=edu.matc.deckOfCards.CardsItem@a4a27cb, QS=edu.matc.deckOfCards.CardsItem@456adaeb, AD=edu.matc.deckOfCards.CardsItem@3362c7d6}
+[INFO ] 2021-04-16 15:55:30.220 [http-nio-8080-exec-1] PropertiesLoader - {AC=edu.matc.deckOfCards.CardsItem@a4a27cb, QS=edu.matc.deckOfCards.CardsItem@456adaeb, AD=edu.matc.deckOfCards.CardsItem@3362c7d6, 0H=edu.matc.deckOfCards.CardsItem@dadce9a}
+[INFO ] 2021-04-16 16:00:24.935 [main] GameDaoTest - null
+[DEBUG] 2021-04-16 16:00:25.145 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-16 16:00:25.453 [main] UserDaoTest - null
+[DEBUG] 2021-04-16 16:00:25.541 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-16 16:00:25.589 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-16 16:01:00.412 [http-nio-8080-exec-10] PropertiesLoader - {8H=edu.matc.deckOfCards.CardsItem@504871a4, 4H=edu.matc.deckOfCards.CardsItem@81386f3, 0D=edu.matc.deckOfCards.CardsItem@659949ee}
+[INFO ] 2021-04-16 16:01:00.418 [http-nio-8080-exec-10] PropertiesLoader - {8H=edu.matc.deckOfCards.CardsItem@504871a4, 4H=edu.matc.deckOfCards.CardsItem@81386f3, 0D=edu.matc.deckOfCards.CardsItem@659949ee, 0H=edu.matc.deckOfCards.CardsItem@8898301}
+[INFO ] 2021-04-16 16:03:29.198 [main] GameDaoTest - null
+[DEBUG] 2021-04-16 16:03:29.416 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-16 16:03:29.713 [main] UserDaoTest - null
+[DEBUG] 2021-04-16 16:03:29.813 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-16 16:03:29.867 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-16 16:04:07.343 [main] GameDaoTest - null
+[DEBUG] 2021-04-16 16:04:07.560 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-16 16:04:07.884 [main] UserDaoTest - null
+[DEBUG] 2021-04-16 16:04:07.987 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-16 16:04:08.038 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-16 16:04:34.109 [http-nio-8080-exec-1] PropertiesLoader - {2D=edu.matc.deckOfCards.CardsItem@69092a41, 8C=edu.matc.deckOfCards.CardsItem@57953e33, 5C=edu.matc.deckOfCards.CardsItem@528982cb}
+[INFO ] 2021-04-16 16:04:34.115 [http-nio-8080-exec-1] PropertiesLoader - {2D=edu.matc.deckOfCards.CardsItem@69092a41, 8C=edu.matc.deckOfCards.CardsItem@57953e33, 6S=edu.matc.deckOfCards.CardsItem@4bf5fc55, 5C=edu.matc.deckOfCards.CardsItem@528982cb}
+[INFO ] 2021-04-18 23:35:00.311 [main] GameDaoTest - null
+[DEBUG] 2021-04-18 23:35:00.617 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-18 23:35:00.942 [main] UserDaoTest - null
+[DEBUG] 2021-04-18 23:35:01.130 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-18 23:35:01.184 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-18 23:35:33.776 [http-nio-8080-exec-5] PropertiesLoader - {3S=edu.matc.deckOfCards.CardsItem@a793cdc, 2H=edu.matc.deckOfCards.CardsItem@7e700e61, QH=edu.matc.deckOfCards.CardsItem@24984ec3}
+[INFO ] 2021-04-18 23:35:33.783 [http-nio-8080-exec-5] PropertiesLoader - {3S=edu.matc.deckOfCards.CardsItem@a793cdc, 2H=edu.matc.deckOfCards.CardsItem@7e700e61, QH=edu.matc.deckOfCards.CardsItem@24984ec3, 8C=edu.matc.deckOfCards.CardsItem@2897cc27}
+[INFO ] 2021-04-18 23:37:13.573 [main] GameDaoTest - null
+[DEBUG] 2021-04-18 23:37:13.780 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-18 23:37:14.105 [main] UserDaoTest - null
+[DEBUG] 2021-04-18 23:37:14.197 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-18 23:37:14.251 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-18 23:37:47.352 [http-nio-8080-exec-1] PropertiesLoader - {4D=edu.matc.deckOfCards.CardsItem@281760b0, KS=edu.matc.deckOfCards.CardsItem@46ab0e34, 6S=edu.matc.deckOfCards.CardsItem@31b6ae71}
+[INFO ] 2021-04-18 23:37:47.359 [http-nio-8080-exec-1] PropertiesLoader - {4D=edu.matc.deckOfCards.CardsItem@281760b0, KS=edu.matc.deckOfCards.CardsItem@46ab0e34, 7C=edu.matc.deckOfCards.CardsItem@27f2cfe, 6S=edu.matc.deckOfCards.CardsItem@31b6ae71}
+[INFO ] 2021-04-21 14:59:54.349 [main] GameDaoTest - null
+[DEBUG] 2021-04-21 14:59:54.605 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-21 14:59:54.928 [main] UserDaoTest - null
+[DEBUG] 2021-04-21 14:59:55.028 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-21 14:59:55.079 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-21 15:00:22.730 [http-nio-8080-exec-5] PropertiesLoader - {0C=edu.matc.deckOfCards.CardsItem@337e7fb0, 0S=edu.matc.deckOfCards.CardsItem@28fae0e1, KD=edu.matc.deckOfCards.CardsItem@3a8dbb78}
+[INFO ] 2021-04-21 15:00:22.737 [http-nio-8080-exec-5] PropertiesLoader - {0C=edu.matc.deckOfCards.CardsItem@337e7fb0, 0S=edu.matc.deckOfCards.CardsItem@28fae0e1, 0H=edu.matc.deckOfCards.CardsItem@36ab072c, KD=edu.matc.deckOfCards.CardsItem@3a8dbb78}
+[INFO ] 2021-04-21 16:16:10.256 [main] GameDaoTest - null
+[DEBUG] 2021-04-21 16:16:10.495 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-21 16:16:10.815 [main] UserDaoTest - null
+[DEBUG] 2021-04-21 16:16:10.905 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-21 16:16:10.952 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-21 16:16:35.458 [main] GameDaoTest - null
+[DEBUG] 2021-04-21 16:16:35.673 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-21 16:16:35.951 [main] UserDaoTest - null
+[DEBUG] 2021-04-21 16:16:36.030 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-21 16:16:36.078 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-21 16:17:05.073 [http-nio-8080-exec-2] PropertiesLoader - {3C=edu.matc.deckOfCards.CardsItem@36e8066, 8H=edu.matc.deckOfCards.CardsItem@4bf2edf1, 4H=edu.matc.deckOfCards.CardsItem@48e80de5}
+[INFO ] 2021-04-21 16:17:05.080 [http-nio-8080-exec-2] PropertiesLoader - {3C=edu.matc.deckOfCards.CardsItem@36e8066, 8H=edu.matc.deckOfCards.CardsItem@4bf2edf1, 4H=edu.matc.deckOfCards.CardsItem@48e80de5, 7D=edu.matc.deckOfCards.CardsItem@582531c6}
+[INFO ] 2021-04-21 16:19:47.041 [main] GameDaoTest - null
+[DEBUG] 2021-04-21 16:19:47.255 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-21 16:19:47.542 [main] UserDaoTest - null
+[DEBUG] 2021-04-21 16:19:47.632 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-21 16:19:47.682 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-21 16:20:14.822 [http-nio-8080-exec-10] PropertiesLoader - {2D=edu.matc.deckOfCards.CardsItem@e9216cc, AD=edu.matc.deckOfCards.CardsItem@28af2d19, 3H=edu.matc.deckOfCards.CardsItem@4adf5917}
+[INFO ] 2021-04-21 16:20:14.829 [http-nio-8080-exec-10] PropertiesLoader - {2D=edu.matc.deckOfCards.CardsItem@e9216cc, AD=edu.matc.deckOfCards.CardsItem@28af2d19, 3H=edu.matc.deckOfCards.CardsItem@4adf5917, AH=edu.matc.deckOfCards.CardsItem@3aa8848}
+[INFO ] 2021-04-23 00:44:33.074 [main] GameDaoTest - null
+[DEBUG] 2021-04-23 00:44:33.328 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-23 00:44:33.706 [main] UserDaoTest - null
+[DEBUG] 2021-04-23 00:44:33.862 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-23 00:44:33.935 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-23 00:46:52.959 [main] GameDaoTest - null
+[DEBUG] 2021-04-23 00:46:53.181 [main] GenericDao - Searching for entity with userScore = 121
+[INFO ] 2021-04-23 00:46:53.455 [main] UserDaoTest - null
+[DEBUG] 2021-04-23 00:46:53.537 [main] GenericDao - Searching for entity with userName = ird
+[DEBUG] 2021-04-23 00:46:53.584 [main] GenericDao - Searching for entity with userName = bobPlaysCards
+[INFO ] 2021-04-23 00:47:30.576 [http-nio-8080-exec-1] PropertiesLoader - {3C=edu.matc.deckOfCards.CardsItem@29a18b85, 8C=edu.matc.deckOfCards.CardsItem@1e73f47b, 7S=edu.matc.deckOfCards.CardsItem@6fc92002}
+[INFO ] 2021-04-23 00:47:30.582 [http-nio-8080-exec-1] PropertiesLoader - {3C=edu.matc.deckOfCards.CardsItem@29a18b85, 8C=edu.matc.deckOfCards.CardsItem@1e73f47b, 7S=edu.matc.deckOfCards.CardsItem@6fc92002, 6C=edu.matc.deckOfCards.CardsItem@5c2f47bd}

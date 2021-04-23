@@ -62,43 +62,5 @@ public class DeckOfCardsDAO {
         return drawn;
     }
 
-    public PileCreation addToPile(String pileName, DrawnCards drawnCards) throws JsonProcessingException {
-        final Logger logger = LogManager.getLogger(PropertiesLoader.class);
-        String cardsParam = "";
-        for (CardsItem card : drawnCards.getCards()) {
-            cardsParam += card.getCode() + ",";
-        }
-        String ready = cardsParam.substring(0, cardsParam.length() - 1);
-        String apiURI = "https://deckofcardsapi.com/api/deck/" + drawnCards.getDeckId() + "/pile/" + pileName + "/add/?cards=" + ready;
-        Client client = ClientBuilder.newClient();
-        WebTarget target =
-                client.target(apiURI);
-        String response = target.request(MediaType.APPLICATION_JSON).get(String.class);
-        ObjectMapper mapper = new ObjectMapper();
-        PileCreation pileCreation = null;
-        try {
-            pileCreation  = mapper.readValue(response, PileCreation.class);
-        } catch (JsonProcessingException e) {
-            logger.error("Error processing request", e);
-        }
-        return pileCreation ;
-    }
-
-    public PileCreation addToCrib(String deckId, String cards) throws JsonProcessingException {
-        final Logger logger = LogManager.getLogger(PropertiesLoader.class);
-        String apiURI = "https://deckofcardsapi.com/api/deck/" + deckId + "/pile/Crib/add/?cards=" + cards;
-        Client client = ClientBuilder.newClient();
-        WebTarget target =
-                client.target(apiURI);
-        String response = target.request(MediaType.APPLICATION_JSON).get(String.class);
-        ObjectMapper mapper = new ObjectMapper();
-        PileCreation pileCreation = null;
-        try {
-            pileCreation  = mapper.readValue(response, PileCreation.class);
-        } catch (JsonProcessingException e) {
-            logger.error("Error processing request", e);
-        }
-        return pileCreation ;
-    }
-
+    /** TODO: Eliminate duplicate code */
 }

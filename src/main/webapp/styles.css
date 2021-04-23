@@ -2,3 +2,7 @@ body {
     background-color: #D3D1BE;
     font-family: Megrim;
 }
+
+.chosen {
+    border: 2px solid #ff0000;
+}
